@@ -1,0 +1,51 @@
+{
+  "name": "werobot.web",
+  "version": "1.0.0",
+  "description": "My sublime Nuxt.js project",
+  "author": "lefuturiste &lt;contact@lefuturiste.fr&gt;",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "locales": "node match-locales.js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.3",
+    "@nuxtjs/moment": "^1.0.0",
+    "cookie-parser": "^1.4.3",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "html-loader": "^0.5.5",
+    "markdown-loader": "^4.0.0",
+    "marked": "^0.5.1",
+    "moment": "^2.22.2",
+    "nuxt": "^2.0.0",
+    "vue-burger-menu": "^1.0.8",
+    "vue-cookie": "^1.1.4",
+    "vue-gallery-slideshow": "^1.2.4",
+    "vue-i18n": "^8.2.1",
+    "vue-ls": "^3.2.0",
+    "vue-moment": "^4.0.0",
+    "vue-recaptcha": "^1.1.1",
+    "vue-transition-css": "^1.0.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/markdownit-loader": "^1.1.1",
+    "all-object-keys": "^1.1.0",
+    "autoprefixer": "^8.6.4",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "markdownit-loader": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.11.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "~0.6.6"
+  }
+}

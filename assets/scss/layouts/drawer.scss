@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.drawer {
+  .bm-menu {
+    background-color: #2c3e50 !important;
+  }
+
+  .cross-style {
+    right: -4px !important;
+    top: 13px !important;
+  }
+
+  .drawer-link {
+    color: white;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+  }
+}
+
+.disabled {
+  transform: translate3d(-300px, 0px, 0px) !important;
+}

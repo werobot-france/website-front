@@ -1,0 +1,57 @@
+{
+  "locale": "en",
+  "title": "We Robot",
+  "description": "Since 2016, we manage, build and manage lots of thing and this description is tmp.",
+  "slogan": "The french robotic",
+  "landing_title": "Build, test, deploy",
+  "home": "Home",
+  "blog": {
+    "title": "Blog"
+  },
+  "about": "About",
+  "legals": "Legals terms",
+  "donate": "Donate",
+  "articles": {
+    "all": "All articles",
+    "last": "Our last articles",
+    "title": "Articles"
+  },
+  "photos": {
+    "all": "All photos",
+    "last": "Our last photos",
+    "title": "Photos"
+  },
+  "loading": "Loading...",
+  "more": "See more...",
+  "contact-us": {
+    "title": "Contact us",
+    "description": "Sunt glutenes dignus lotus, gratis messores. Salvus homo recte visums fides est. Barbatus fluctus aegre amors ratione est.",
+    "form": {
+      "field_required": "This field is required",
+      "recaptcha_required": "The recaptcha is required",
+      "invalid_email": "This email is invalid",
+      "not-enough-length": "You must be more precise...",
+      "submit": "Submit",
+      "loading": "Loading...",
+      "success": "Your message has been sent!",
+      "name": "Your name",
+      "name_placeholder": "John Doe",
+      "email": "Your email",
+      "email_placeholder": "john.doe@example.com",
+      "subject": "Subject",
+      "subject_placeholder": "Ubi est magnum nixus?",
+      "content": "Your message",
+      "content_placeholder": "Mineralis de fortis abaculus, imperium glos est fidelis gemna, cesaris."
+    }
+  },
+  "error": {
+    "unknown": {
+      "title": "This is a error",
+      "description": "Very sorry for that"
+    },
+    "not-found": {
+      "title": "Are you lost ?",
+      "description": "This page doesn't exist"
+    }
+  }
+}
