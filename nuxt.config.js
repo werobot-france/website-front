@@ -82,7 +82,7 @@ module.exports = {
   },
 
   proxy: {
-    '/api': { target: 'https://api.werobot.fr', pathRewrite: {'^/api/': ''} }
+    '/api': { changeOrigin: true, target: process.env.API_ENDPOINT, pathRewrite: {'^/api/': ''} }
   },
 
   router: {
