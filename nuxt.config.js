@@ -77,7 +77,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    baseUrl: "/api/"
+    prefix: "/api/"
   },
 
   router: {
