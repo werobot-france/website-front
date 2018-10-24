@@ -82,10 +82,19 @@ module.exports = {
   },
 
   proxy: {
-    '/api': { changeOrigin: true, target: process.env.API_ENDPOINT, pathRewrite: {'^/api/': ''} }
+    '/api': {
+      changeOrigin: true,
+      target: process.env.API_ENDPOINT,
+      pathRewrite: {
+        '^/api/': ''
+      },
+      onProxyReq: (proxyReq, req, res) => {
+        proxyReq.removeHeader('X-Forwarded-For')
+      }
+    }
   },
-
   router: {
+
     middleware: 'i18n'
   },
 
