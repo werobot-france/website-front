@@ -12,13 +12,13 @@ let proxy = require('http-proxy-middleware');
 app.set('port', port);
 app.use(cookieParser())
 
-app.use('/api', proxy({
-    target: process.env.API_ENDPOINT || 'https://api.werobot.fr',
-    changeOrigin: true,
-    pathRewrite: {
-        '^/api' : '/',
-    }
-}));
+// app.use('/api', proxy({
+//       target: process.env.API_ENDPOINT || 'https://api.werobot.fr',
+//       changeOrigin: true,
+//     pathRewrite: {
+//         '^/api' : '/',
+//     }
+// }));
 
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js');

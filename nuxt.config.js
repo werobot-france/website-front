@@ -70,7 +70,8 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/axios',
-    ['@nuxtjs/moment', ['fr']]
+    ['@nuxtjs/moment', ['fr']],
+    '@nuxtjs/proxy'
   ],
 
   /*
@@ -78,6 +79,10 @@ module.exports = {
   */
   axios: {
     prefix: "/api/"
+  },
+
+  proxy: {
+    '/api': { target: 'https://api.werobot.fr', pathRewrite: {'^/api/': ''} }
   },
 
   router: {
