@@ -2,7 +2,7 @@
 export default function (context) {
   if (context.req !== undefined) {
     let locale = context.app.i18n.fallbackLocale;
-    if (context.req.cookies.locale === undefined) {
+    if (context.req.cookies === undefined || context.req.cookies.locale === undefined) {
       let m;
       const regex = /fr/gm;
       if (context.req.headers !== undefined && context.req.headers['accept-language'] !== undefined) {

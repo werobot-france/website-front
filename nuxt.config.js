@@ -23,6 +23,8 @@ module.exports = {
     ],
     link: [
       {rel: 'icon', type: 'image/png', href: '/favicon.png'},
+      {rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Audiowide|Roboto+Slab'},
+      {rel: 'stylesheet', type: 'text/css', href: 'https://use.fontawesome.com/releases/v5.3.1/css/all.css'},
       {rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.png'},
       {rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png'},
       {rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png'},
@@ -75,8 +77,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    host: 'localhost',
-    port: '8000'
+    baseUrl: process.env.API_URL || "http://localhost:8000"
   },
 
   router: {
