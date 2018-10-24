@@ -39,8 +39,9 @@ export const actions = {
           resolve(res.data)
         }).catch((err) => {
           console.log('err');
-          console.log(err.request.url);
-          console.log(err.request.headers);
+          console.log(err.request);
+          console.log('---');
+          console.log(err.request.getHeaders());
           console.log(err.response.status);
           console.log(err.response.headers);
           reject(err)
