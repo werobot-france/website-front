@@ -13,7 +13,7 @@ app.set('port', port);
 app.use(cookieParser())
 
 app.use('/api', proxy({
-    target: process.env.API_URL || 'https://api.werobot.fr',
+    target: process.env.API_ENDPOINT || 'https://api.werobot.fr',
     changeOrigin: true,
     pathRewrite: {
         '^/api' : '/',
