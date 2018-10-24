@@ -89,7 +89,22 @@ module.exports = {
         '^/api/': ''
       },
       onProxyReq: (proxyReq, req, res) => {
-        proxyReq.removeHeader('X-Forwarded-For')
+        proxyReq.removeHeader('x-forwarded-for')
+        proxyReq.removeHeader('x-forwarded-host')
+        proxyReq.removeHeader('x-forwarded-server')
+        proxyReq.removeHeader('cf-ipcountry')
+        proxyReq.removeHeader('cf-ray')
+        proxyReq.removeHeader('cf-connecting-ip')
+        proxyReq.removeHeader('cf-visitor')
+        proxyReq.removeHeader('dnt')
+      },
+      onProxyRes: (proxyRes, req, res) => {
+        console.log(req.getHeaders())
+      },
+      onError: (err) => {
+        console.log('---- PROXY ERROR ----')
+        console.log(err)
+        console.log('---- END OF PROXY ERROR ----')
       }
     }
   },
