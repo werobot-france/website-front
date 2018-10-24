@@ -99,7 +99,7 @@ module.exports = {
         proxyReq.removeHeader('dnt')
       },
       onProxyRes: (proxyRes, req, res) => {
-        console.log(req.getHeaders())
+        // console.log(req.getHeaders())
       },
       onError: (err) => {
         console.log('---- PROXY ERROR ----')
