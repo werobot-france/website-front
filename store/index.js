@@ -34,17 +34,20 @@ export const actions = {
   async fetchArticles (context, params) {
     context.commit('TOGGLE_LOADING');
     const data = await function () {
-      return new Promise((resolve) => {
+      return new Promise((resolve, reject) => {
         params.app.$axios.get(`/post?limit=${params.limit}&locale=${params.app.i18n.locale}`).then((res) => {
           resolve(res.data)
         }).catch((err) => {
           console.log('err');
-          console.log(err);
-          resolve('error')
+          reject(err)
         })
       })
+      if (data.data == undefined) {
+        console.log('Err fetching articles');
+        context.commit('SET_ARTICLES', []);
+      }
+      context.commit('SET_ARTICLES', data.data.posts);
     }();
-    context.commit('SET_ARTICLES', data.data.posts);
     context.commit('TOGGLE_LOADING');
   },
   async fetchArticle (context, params) {
