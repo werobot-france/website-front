@@ -6,9 +6,19 @@ const app = express();
 const host = process.env.HOST || '127.0.0.1';
 const port = process.env.PORT || 3000;
 let cookieParser = require('cookie-parser');
+let proxy = require('http-proxy-middleware');
+
 
 app.set('port', port);
 app.use(cookieParser())
+
+app.use('/api', proxy({
+    target: process.env.API_URL || 'https://api.werobot.fr',
+    changeOrigin: true,
+    pathRewrite: {
+        '^/api' : '/',
+    }
+}));
 
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js');

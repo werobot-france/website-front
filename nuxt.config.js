@@ -77,7 +77,7 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    baseUrl: process.env.API_URL || "http://localhost:8000"
+    baseUrl: "/api/"
   },
 
   router: {
