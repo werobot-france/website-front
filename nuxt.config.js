@@ -98,9 +98,6 @@ module.exports = {
         proxyReq.removeHeader('cf-visitor')
         proxyReq.removeHeader('dnt')
       },
-      onProxyRes: (proxyRes, req, res) => {
-        // console.log(req.getHeaders())
-      },
       onError: (err) => {
         console.log('---- PROXY ERROR ----')
         console.log(err)
@@ -109,7 +106,6 @@ module.exports = {
     }
   },
   router: {
-
     middleware: 'i18n'
   },
 

@@ -47,6 +47,7 @@ export const actions = {
           reject(err)
         })
       })
+      console.log(data)
       if (data.data == undefined) {
         console.log('Err fetching articles');
         context.commit('SET_ARTICLES', []);
