@@ -78,7 +78,8 @@ module.exports = {
   ** Axios module configuration
   */
   axios: {
-    prefix: "/api/"
+    prefix: "/api/",
+    proxyHeadersIgnore: ['host', 'accept', 'cf-ray', 'cf-connecting-ip']
   },
 
   proxy: {
