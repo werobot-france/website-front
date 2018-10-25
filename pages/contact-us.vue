@@ -129,7 +129,7 @@
               <no-ssr>
                 <vue-recaptcha
                   ref="reCaptcha"
-                  sitekey="6Ld1wCYTAAAAAPMcCqInb1r4sGM_hB967wXQyEqr"
+                  sitekey="6LdSznYUAAAAAHCOHlNFZCrW4puTUBeiSLcbtRbF"
                   @verify="reCaptchaVerify"
                 ></vue-recaptcha>
                 <script
