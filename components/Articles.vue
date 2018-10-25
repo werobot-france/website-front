@@ -18,7 +18,7 @@
           class="section-error-container">
           <div class="section-error-content">
             <i class="fa fas fa-times-circle"></i>
-            No articles
+            {{ $t('articles.empty') }}
           </div>
         </div>
         <div

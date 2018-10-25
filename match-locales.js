@@ -26,7 +26,7 @@ locales.forEach((origin_locale) => {
     keys[origin_locale._id].forEach((item) => {
       if (keys[locale._id].indexOf(item) === -1) {
         console.log(colors[color](item + " in ") + colors.bold(locale._id));
-        this.errors++
+        errors++
       }
     })
   });
@@ -35,5 +35,8 @@ locales.forEach((origin_locale) => {
 
 if (errors === 0) {
   console.log(colors.bold(colors.green('No errors')));
+  console.log("");
+} else {
+  console.log(colors.bold(colors.red(`Found ${errors} error(s)`)));
   console.log("");
 }

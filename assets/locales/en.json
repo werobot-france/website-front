@@ -1,4 +1,5 @@
 {
+  "_id": "en",
   "locale": "en",
   "title": "We Robot",
   "description": "Since 2016, we manage, build and manage lots of thing and this description is tmp.",
@@ -14,12 +15,14 @@
   "articles": {
     "all": "All articles",
     "last": "Our last articles",
-    "title": "Articles"
+    "title": "Articles",
+    "empty": "No articles"
   },
   "photos": {
     "all": "All photos",
     "last": "Our last photos",
-    "title": "Photos"
+    "title": "Photos",
+    "empty": "No photos"
   },
   "loading": "Loading...",
   "more": "See more...",

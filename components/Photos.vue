@@ -18,7 +18,7 @@
           class="section-error-container">
           <div class="section-error-content">
             <i class="fa fas fa-times-circle"></i>
-            No photos
+            {{ $t('photos.empty') }}
           </div>
         </div>
         <div
