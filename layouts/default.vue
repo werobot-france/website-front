@@ -39,7 +39,10 @@ export default {
         {property: 'og:description', content: this.$t('description')},
         {property: 'og:locale', content: this.$i18n.locale},
         {property: 'og:image', content: '/logo.jpg'},
-      ]
+      ],
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      }
     }
   },
   mounted() {
