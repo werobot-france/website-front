@@ -7,5 +7,6 @@ Vue.prototype.$env = {
     youtube: process.env.youtube,
     twitter: process.env.twitter,
   },
-  donate: process.env.donate
+  donate: process.env.donate,
+  reCaptchaKey: process.env.reCaptchaKey
 };

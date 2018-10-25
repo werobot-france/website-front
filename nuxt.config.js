@@ -5,6 +5,7 @@ module.exports = {
   mode: 'universal',
 
   env: {
+    reCaptchaKey: "6LdSznYUAAAAAHCOHlNFZCrW4puTUBeiSLcbtRbF",
     twitter: "https://twitter.com/werobot_FR",
     facebook: "https://www.facebook.com/WeRobot/",
     instagram: "https://www.instagram.com/werobot/",
@@ -59,7 +60,7 @@ module.exports = {
   */
   plugins: [
     '~/plugins/i18n.js',
-    '~/plugins/moment.js',
+    '~/plugins/env.js',
     {src: '~/plugins/localStorage.js', ssr: false},
     {src: '~/plugins/cookie.js', ssr: false},
     {src: '~/plugins/slideMenu.js', ssr: false}

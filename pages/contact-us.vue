@@ -129,7 +129,7 @@
               <no-ssr>
                 <vue-recaptcha
                   ref="reCaptcha"
-                  sitekey="6LdSznYUAAAAAHCOHlNFZCrW4puTUBeiSLcbtRbF"
+                  :sitekey="$env.reCaptchaKey"
                   @verify="reCaptchaVerify"
                 ></vue-recaptcha>
                 <script
