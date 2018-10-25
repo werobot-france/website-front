@@ -36,7 +36,7 @@ module.exports = {
       {rel: 'apple-touch-icon', sizes: '152x152', href: '/apple-icon-152x152.png'},
       {rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-icon-180x180.png'},
       {rel: 'icon', type: 'image/png', sizes: '16x16', href: '/android-icon-16x16.png'},
-      {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/android-icon-32x32.png'},
+      {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/android-icon-36x36.png'},
       {rel: 'icon', type: 'image/png', sizes: '96x96', href: '/android-icon-96x96.png'},
       {rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-icon-192x192.png'},
       {rel: 'manifest', href: '/manifest.json'}
