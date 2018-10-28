@@ -4,7 +4,23 @@
   "title": "We Robot",
   "description": "Since 2016, we manage, build and manage lots of thing and this description is tmp.",
   "slogan": "The french robotic",
-  "landing_title": "Build, test, deploy",
+  "landing": {
+    "title": "Build, test, deploy",
+    "edito": {
+      "title": "Edito",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas eros at purus viverra aliquam. Vivamus quis felis mi. Curabitur interdum mi at pulvinar pretium. In ac neque vulputate, dictum ex id, accumsan purus. Sed lobortis justo velit, sit amet tristique nisl dapibus et."
+    },
+    "mission": {
+      "title": "Our mission",
+      "content": "Pellentesque consectetur finibus viverra. Nam commodo finibus dolor et consequat. Aliquam sodales dui risus, sed blandit ligula tincidunt et. Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "action": "See more..."
+    },
+    "support": {
+      "title": "Support us",
+      "content": "Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "action": "Donate"
+    }
+  },
   "home": "Home",
   "blog": {
     "title": "Blog"

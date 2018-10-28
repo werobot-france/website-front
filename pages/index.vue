@@ -4,43 +4,53 @@
     <div class="cover">
       <div class="cover-container container mx-auto">
         <div class="cover-title">
-          <h1>{{ $t('landing_title') }}</h1>
+          <h1>{{ $t('landing.title') }}</h1>
         </div>
       </div>
     </div>
     <div class="content">
       <div class="container mx-auto">
         <div class="flex flex-wrap justify-between">
+          <div class="w-full">
+            <div class="card no-actions card-blue mx-2">
+              <div class="card-title">
+                <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.edito.title') }}
+              </div>
+              <div class="card-text">
+                {{ $t('landing.edito.content') }}
+              </div>
+            </div>
+          </div>
           <div class="w-full md:w-1/2 ">
             <div class="card card-purple mx-2">
               <div class="card-title">
-                <i class="fa fas fa-arrow-circle-right"></i> Our mission
+                <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.mission.title') }}
               </div>
               <div class="card-text">
-                A falsis, silva pius stella. Tumultumque de lotus secula, transferre amicitia! Sunt lixaes resuscitabo fatalis, noster elevatuses.
+                {{ $t('landing.mission.content') }}
               </div>
               <div class="card-actions">
-                <a
-                  class="card-action"
-                  href="#">
-                  Show more
-                </a>
+                <nuxt-link
+                  to="/about"
+                  class="card-action">
+                  {{ $t('landing.mission.action') }}
+                </nuxt-link>
               </div>
             </div>
           </div>
           <div class="w-full md:w-1/2">
             <div class="card card-green mx-2">
               <div class="card-title">
-                <i class="fa fas fa-arrow-circle-right"></i> Support us
+                <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.support.title') }}
               </div>
               <div class="card-text">
-                A falsis, silva pius stella. Tumultumque de lotus secula, transferre amicitia! Sunt lixaes resuscitabo fatalis, noster elevatuses.
+                {{ $t('landing.support.content') }}
               </div>
               <div class="card-actions">
                 <a
-                  class="card-action"
-                  href="#">
-                  Donate
+                  :href="$env.donate"
+                  class="card-action">
+                  {{ $t('landing.support.action') }}
                 </a>
               </div>
             </div>

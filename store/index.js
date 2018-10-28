@@ -46,14 +46,13 @@ export const actions = {
           console.log(err.response.headers);
           reject(err)
         })
-      })
-      console.log(data)
-      if (data.data == undefined) {
-        console.log('Err fetching articles');
-        context.commit('SET_ARTICLES', []);
-      }
-      context.commit('SET_ARTICLES', data.data.posts);
+      });
     }();
+    if (data.data === undefined) {
+      console.log('Err fetching articles');
+      context.commit('SET_ARTICLES', []);
+    }
+    context.commit('SET_ARTICLES', data.data.posts);
     context.commit('TOGGLE_LOADING');
   },
   async fetchArticle (context, params) {

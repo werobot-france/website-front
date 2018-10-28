@@ -35,6 +35,13 @@ $card-border-radius: 5px;
   }
 }
 
+.card.no-actions {
+  .card-text {
+    border-bottom-left-radius: $card-border-radius;
+    border-bottom-right-radius: $card-border-radius;
+  }
+}
+
 .card.card-green {
   color: #2f3640;
   .card-title {
@@ -61,5 +68,21 @@ $card-border-radius: 5px;
   }
   .card-actions {
     background-color: #8e44ad;
+  }
+}
+
+.card.card-blue {
+  color: #f5f6fa;
+  a {
+    color: #f5f6fa;
+  }
+  .card-title {
+    background-color: #2980b9;
+  }
+  .card-text {
+    background-color: #3498db;
+  }
+  .card-actions {
+    background-color: #2980b9;
   }
 }

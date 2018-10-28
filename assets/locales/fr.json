@@ -4,7 +4,23 @@
   "title": "We Robot",
   "description": "Association, basé à Gaillon dans le but de faire x et y depuis 2016",
   "slogan": "La robotique, française",
-  "landing_title": "Construire, tester, déployer",
+  "landing": {
+    "title": "Construire, tester, déployer",
+    "edito": {
+      "title": "Edito",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas eros at purus viverra aliquam. Vivamus quis felis mi. Curabitur interdum mi at pulvinar pretium. In ac neque vulputate, dictum ex id, accumsan purus. Sed lobortis justo velit, sit amet tristique nisl dapibus et."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "content": "Pellentesque consectetur finibus viverra. Nam commodo finibus dolor et consequat. Aliquam sodales dui risus, sed blandit ligula tincidunt et. Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "action": "See more..."
+    },
+    "support": {
+      "title": "Supportez nous",
+      "content": "Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "action": "Donate"
+    }
+  },
   "home": "Accueil",
   "blog": {
     "title": "Blog"
