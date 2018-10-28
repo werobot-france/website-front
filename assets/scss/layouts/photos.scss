@@ -8,9 +8,9 @@
   }
 
   .photos-list-photos {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 26px;
   }
 
   .photos-list-item {
@@ -40,7 +40,7 @@
 @media (max-width: $max-width-responsive-level-1) {
   .photos-list {
     .photos-list-photos {
-      justify-content: center;
+      grid-template-columns: 1fr;
     }
 
     .photos-list-item {
