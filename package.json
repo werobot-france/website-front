@@ -11,7 +11,8 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "locales": "node match-locales.js"
+    "locales": "node match-locales.js",
+    "deploy": "git pull origin master && npm run build && pm2 restart all"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.3",
