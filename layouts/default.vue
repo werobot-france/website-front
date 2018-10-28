@@ -39,6 +39,8 @@ export default {
         {property: 'og:description', content: this.$t('description')},
         {property: 'og:locale', content: this.$i18n.locale},
         {property: 'og:image', content: '/logo.jpg'},
+        {property: 'og:locale:alternate', content: 'fr'},
+        {property: 'og:locale:alternate', content: 'en'}
       ],
       htmlAttrs: {
         lang: this.$i18n.locale
