@@ -35,6 +35,7 @@ export default {
       titleTemplate: '%s - We Robot',
       meta: [
         {name: 'description', content: this.$t('description')},
+        {name: 'keywords', content: this.$t('keywords').join(',')},
         {property: 'og:title', content: this.$t('title')},
         {property: 'og:description', content: this.$t('description')},
         {property: 'og:locale', content: this.$i18n.locale},

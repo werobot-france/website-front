@@ -3,6 +3,7 @@
   "locale": "fr",
   "title": "We Robot",
   "description": "Créée en 2017, association locale de robotique pour les jeunes, basée à Gaillon en France. Nous participons à des concours nationaux ou internationaux, gagnant d'un prix au First Global Contest à Washington DC en 2017 et du World Adolescent Robotic Contest à Guyiang, Chine en 2018.",
+  "keywords": ["Gaillon", "Robotique", "We Robot", "France", "Association", "Locale"],
   "slogan": "La robotique, française",
   "landing": {
     "title": "Construire, tester, déployer",
