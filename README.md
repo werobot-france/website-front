@@ -1,22 +1,17 @@
-# werobot.web
+# Werobot web service
 
-> My sublime Nuxt.js project
+## Dev setup
 
-## Build Setup
+- `npm install`
+- `npm run dev`
 
-``` bash
-# install dependencies
-$ yarn install
+## Production setup
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
+- `npm install`
+- `npm run build`
+- `npm run start`
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
+## Environnement variables
 
-# generate static project
-$ yarn run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+- `API_ENDPOINT` (https://api.werobot.fr)
+- `API_URL` (api proxy url: https://werobot.fr/api) (default: http://localhost:3000)
