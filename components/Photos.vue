@@ -27,8 +27,8 @@
           <div
             v-for="(photo, i) in photos"
             :key="photo.id"
-            :title="photo.description"
-            :style="'background-image: url(' + photo.url + ');'"
+            :title="photo.caption"
+            :style="'background-image: url(' + photo.images.standard + ');'"
             class="photos-list-item"
             @click="index = i"
           >
@@ -76,7 +76,7 @@ export default {
     this.$axios.get(`/photos${limit}`).then((res) => {
       this.photos = res.data.data.photos;
       this.photosSlideShow = this.photos.map((photo) => {
-        return photo.url
+        return photo.images.standard
       });
       this.isLoading = false;
     })
