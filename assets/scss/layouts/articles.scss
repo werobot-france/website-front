@@ -151,6 +151,19 @@
 
 @media (max-width: $max-width-responsive-level-1) {
   .articles {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: $max-width-responsive-level-2) {
+  .articles {
+    .article-thumb {
+      height: 150px;
+    }
+    .article-body {
+      height: 250px;
+    }
   }
 }
