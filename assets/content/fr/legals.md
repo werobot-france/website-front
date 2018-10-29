@@ -1,33 +1,44 @@
-[WIP: Not the actual legals]
+## Editeur et propriétaire
 
-**Propriétaire** : Thibault JUNIN - spamfree@matthieubessat.fr
+Le propriétaire et l'éditeur du site werobot.fr est l'association locale à but non lucrative qui édite et détient ce site web.
 
-**Créateur** : Thibault JUNIN - spamfree@matthieubessat.fr
+We Robot 
 
-**Responsable publication** : Thibault JUNIN - spamfree@matthieubessat.fr
+[werobot.fr@gmail.com](mailto:werobot.fr@gmail.com)
 
-**Webmaster** : Thibault JUNIN - spamfree@matthieubessat.fr
+12 Sentier du Clos Paumel
 
-**Hébergeur** : OVH SAS – 2 rue Kellermann - 59100 Roubaix - France.
+27940 GAILLON
 
-## Conditions générale d'utilisation
+FRANCE
 
-Le présent document a pour objet de définir les modalités et conditions dans lesquelles d’une part, STAN-TAb Corp. , ci-après dénommé l’EDITEUR, met à la disposition de ses utilisateurs le site, et les services disponibles sur le site et d’autre part, la manière par laquelle l’utilisateur accède au site et utilise ses services.
+## Responsable publication
 
-Toute connexion au site est subordonnée au respect des présentes conditions.
+Pour toute demande touchant au contenu publié sur ce site veuillez vous adressez au responsable de la publication :
+Le responsable de la publication du site werobot.fr est :
 
-Pour l’utilisateur, le simple accès au site de l’EDITEUR à l’adresse URL suivante stantabcorp.com implique l’acceptation de l’ensemble des conditions décrites ci-après.
+**Frank GITON** [frank.giton@gmail.com](mailto:frank.giton@gmail.com)
+
+## Hébergeur 
+
+Werobot héberge ses services en ligne, le site web (werobot.fr) ainsi que son api interne (api.werobot.fr) sur la platforme INFOMANIAK NETWORK. Son siège social : Avenue de la Praille 26, 1227 Genève, Suisse. Son site web : [www.infomaniak.com](https://www.infomaniak.com)
 
 ## Propriété intellectuelle
 
-Aucune reproduction, même partielle prévue à l’article L.122-5 du Code de la propriété intellectuelle, ne peut être faite de ce site sans l’autorisation du directeur de publication.
+Ce site web est sous la license libre [Creative Commons](https://creativecommons.org) Toutes les images à l'exeption de l'image du footer sont libres de droits.
+
+L'image utilisé dans le footer de sont site est issue du site [PEXELS.com](https://pexels.com) sous une [license libre](https://www.pexels.com/photo-license/).
+
+## Protection des donnés personnelles
+
+Les protections
 
 ## Liens hypertextes
 
-Le site stantabcorp.com peut contenir des liens hypertextes vers d’autres sites présents sur le réseau Internet. Les liens vers ces autres ressources vous font quitter le site stantabcorp.com
+Le site werobot.fr peut contenir des liens hypertextes vers d’autres sites présents sur le réseau Internet. Les liens vers ces autres ressources vous font quitter le site werobot.fr
 
-Il est possible de créer un lien vers la page de présentation de ce site sans autorisation expresse de l’EDITEUR. Aucune autorisation ou demande d’information préalable ne peut être exigée par l’éditeur à l’égard d’un site qui souhaite établir un lien vers le site de l’éditeur. Il convient toutefois d’afficher ce site dans une nouvelle fenêtre du navigateur. Cependant, l’EDITEUR se réserve le droit de demander la suppression d’un lien qu’il estime non conforme à l’objet du site stantabcorp.com
-    
+Il est possible de créer un lien vers la page de présentation de ce site sans autorisation expresse de l’EDITEUR. Aucune autorisation ou demande d’information préalable ne peut être exigée par l’éditeur à l’égard d’un site qui souhaite établir un lien vers le site de l’éditeur. Il convient toutefois d’afficher ce site dans une nouvelle fenêtre du navigateur. Cependant, l’EDITEUR se réserve le droit de demander la suppression d’un lien qu’il estime non conforme à l’objet du site werobot.fr    
+
 ## Responsabilité de l’éditeur
 
 Les informations et/ou documents figurant sur ce site et/ou accessibles par ce site proviennent de sources considérées comme étant fiables.
@@ -62,7 +73,7 @@ L’EDITEUR se réserve la possibilité de modifier, à tout moment et sans pré
     
 L’utilisateur déclare accepter les caractéristiques et les limites d’Internet, et notamment reconnaît que : L’EDITEUR n’assume aucune responsabilité sur les services accessibles par Internet et n’exerce aucun contrôle de quelque forme que ce soit sur la nature et les caractéristiques des données qui pourraient transiter par l’intermédiaire de son centre serveur.
 
-L’utilisateur reconnaît que les données circulant sur Internet ne sont pas protégées notamment contre les détournements éventuels. La présence du logo STAN-TAb Corp. institue une présomption simple de validité. La communication de toute information jugée par l’utilisateur de nature sensible ou confidentielle se fait à ses risques et périls.
+L’utilisateur reconnaît que les données circulant sur Internet ne sont pas protégées notamment contre les détournements éventuels. La présence du logo We Robot institue une présomption simple de validité. La communication de toute information jugée par l’utilisateur de nature sensible ou confidentielle se fait à ses risques et périls.
 
 L’utilisateur reconnaît que les données circulant sur Internet peuvent être réglementées en termes d’usage ou être protégées par un droit de propriété.
 
@@ -74,7 +85,7 @@ L’utilisateur reconnaît que l’EDITEUR ne dispose d’aucun moyen de contrô
 
 Tant le présent site que les modalités et conditions de son utilisation sont régis par le droit français, quel que soit le lieu d’utilisation. En cas de contestation éventuelle, et après l’échec de toute tentative de recherche d’une solution amiable, les tribunaux français seront seuls compétents pour connaître de ce litige.
 
-Pour toute question relative aux présentes conditions d’utilisation du site, vous pouvez nous écrire à l’adresse suivante: spamfree@matthieubessat.fr
+Pour toute question relative aux présentes conditions d’utilisation du site, vous pouvez nous écrire à l’adresse suivante: werobot.fr@gmail.com
 
 ## Cookies
 

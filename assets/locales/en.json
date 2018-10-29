@@ -73,5 +73,6 @@
       "title": "Are you lost ?",
       "description": "This page doesn't exist"
     }
-  }
+  },
+  "page-not-supported": "We are sorry this page is not supported in your language yet."
 }

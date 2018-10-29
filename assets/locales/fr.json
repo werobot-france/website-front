@@ -73,5 +73,6 @@
       "title": "Vous vous êtes perdu ?",
       "description": "Cette page n'existe pas ou plus."
     }
-  }
+  },
+  "page-not-supported": "Cette page n'est pas disponible dans votre langue actuellement."
 }
