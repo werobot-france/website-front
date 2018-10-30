@@ -13,12 +13,12 @@
     },
     "mission": {
       "title": "Notre objectif",
-      "content": "Notre but principal est l'éducation ludique des jeunes dans le domaines des sciences et techniques.\n Nous faisons participer à des concours nationaus et internationaux de robotique une équipe de jeunes motivés et passionnés.\n Parallèlement, nous proposons une initiation à la robotique pour les enfants de 8 à 12 ans.",
+      "content": "Notre but principal est l'éducation ludique des jeunes dans le domaines des sciences et techniques.<br> Nous faisons participer à des concours nationaus et internationaux de robotique une équipe de jeunes motivés et passionnés.<br> Parallèlement, nous proposons une initiation à la robotique pour les enfants de 8 à 12 ans.",
       "action": "Voir plus..."
     },
     "support": {
       "title": "Soutenez nous",
-      "content": "La robotique est une activité onéreuse. Elle nécessite beaucoup de matériel (moteurs, capteurs, structures mécaniques, cartes électroniques, instruments de mesure, outils, visserie, ordinateur ...).\nDe plus les déplacement, particulièrement à l'international, ne sont pas à la portée de tous.\nC'est pourquoi nous sommes toujours à la recherche de partenaires et de soutien financier.",
+      "content": "La robotique est une activité onéreuse. Elle nécessite beaucoup de matériel (moteurs, capteurs, structures mécaniques, cartes électroniques, instruments de mesure, outils, visserie, ordinateur ...).<br>De plus les déplacement, particulièrement à l'international, ne sont pas à la portée de tous. <br> C'est pourquoi nous sommes toujours à la recherche de partenaires et de soutien financier.",
       "action": "Donner"
     }
   },
