@@ -9,17 +9,17 @@
     "title": "Construire, tester, déployer",
     "edito": {
       "title": "Edito",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas eros at purus viverra aliquam. Vivamus quis felis mi. Curabitur interdum mi at pulvinar pretium. In ac neque vulputate, dictum ex id, accumsan purus. Sed lobortis justo velit, sit amet tristique nisl dapibus et."
+      "content": "L'année 2018-2019 s'annonce bien chargée. En plus de notre intervention hebdomadaire auprès des jeunes du Centre Social Condorcet, nous avons deux équipes actives sur deux concours. En effet nous participons de nouveaux aux Trophées de Robotique avec Antoine et Mathis mais cette année Félix nous a rejoint. De plus, Mohammed et Matthieu nous ont entraîné dans le concours Astro-Pi qui se révèle passionnant. On a du pain sur la planche :-)"
     },
     "mission": {
-      "title": "Notre mission",
-      "content": "Pellentesque consectetur finibus viverra. Nam commodo finibus dolor et consequat. Aliquam sodales dui risus, sed blandit ligula tincidunt et. Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
-      "action": "See more..."
+      "title": "Notre objectif",
+      "content": "Notre but principal est l'éducation ludique des jeunes dans le domaines des sciences et techniques.\n Nous faisons participer à des concours nationaus et internationaux de robotique une équipe de jeunes motivés et passionnés.\n Parallèlement, nous proposons une initiation à la robotique pour les enfants de 8 à 12 ans.",
+      "action": "Voir plus..."
     },
     "support": {
-      "title": "Supportez nous",
-      "content": "Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
-      "action": "Donate"
+      "title": "Soutenez nous",
+      "content": "La robotique est une activité onéreuse. Elle nécessite beaucoup de matériel (moteurs, capteurs, structures mécaniques, cartes électroniques, instruments de mesure, outils, visserie, ordinateur ...).\nDe plus les déplacement, particulièrement à l'international, ne sont pas à la portée de tous.\nC'est pourquoi nous sommes toujours à la recherche de partenaires et de soutien financier.",
+      "action": "Donner"
     }
   },
   "home": "Accueil",
