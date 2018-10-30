@@ -16,8 +16,9 @@
               <div class="card-title">
                 <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.edito.title') }}
               </div>
-              <div class="card-text">
-                {{ $t('landing.edito.content') }}
+              <div
+                class="card-text"
+                v-html="$t('landing.edito.content')">
               </div>
             </div>
           </div>
@@ -26,8 +27,9 @@
               <div class="card-title">
                 <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.mission.title') }}
               </div>
-              <div class="card-text">
-                {{ $t('landing.mission.content') }}
+              <div
+                class="card-text"
+                v-html="$t('landing.mission.content')">
               </div>
               <div class="card-actions">
                 <nuxt-link
@@ -43,8 +45,9 @@
               <div class="card-title">
                 <i class="fa fas fa-arrow-circle-right"></i> {{ $t('landing.support.title') }}
               </div>
-              <div class="card-text">
-                {{ $t('landing.support.content') }}
+              <div
+                class="card-text"
+                v-html="$t('landing.support.content')">
               </div>
               <div class="card-actions">
                 <a
