@@ -9,16 +9,16 @@
     "title": "Construire, tester, déployer",
     "edito": {
       "title": "Edito",
-      "content": "L'année 2018-2019 s'annonce bien chargée. En plus de notre intervention hebdomadaire auprès des jeunes du Centre Social Condorcet, nous avons deux équipes actives sur deux concours. En effet nous participons de nouveaux aux Trophées de Robotique avec Antoine et Mathis mais cette année Félix nous a rejoint. De plus, Mohammed et Matthieu nous ont entraîné dans le concours Astro-Pi qui se révèle passionnant. On a du pain sur la planche :-)"
+      "content": "L'année 2018-2019 s'annonce bien chargée. En plus de notre intervention hebdomadaire auprès des jeunes du Centre Social Condorcet, nous avons deux équipes actives sur deux concours. En effet nous participons de nouveaux aux <a href='http:\\www.tropheesderobotique.fr'>Trophées de Robotique</a> avec Antoine et Mathis mais cette année Félix nous a rejoint. De plus, Mohammed et Matthieu nous ont entraînés dans le concours <a href='https://astro-pi.org'>Astro-Pi</a> qui se révèle passionnant. On a du pain sur la planche :-)"
     },
     "mission": {
       "title": "Notre objectif",
-      "content": "Notre but principal est l'éducation ludique des jeunes dans le domaines des sciences et techniques.<br> Nous faisons participer à des concours nationaus et internationaux de robotique une équipe de jeunes motivés et passionnés.<br> Parallèlement, nous proposons une initiation à la robotique pour les enfants de 8 à 12 ans.",
+      "content": "Notre but principal est l'éducation ludique des jeunes dans le domaines des sciences et techniques.<br> Nous faisons participer, à des concours nationaux et internationaux de robotique, une équipe de jeunes motivés et passionnés.<br> Parallèlement, nous proposons une initiation à la robotique pour les enfants de 8 à 12 ans.",
       "action": "Voir plus..."
     },
     "support": {
       "title": "Soutenez nous",
-      "content": "La robotique est une activité onéreuse. Elle nécessite beaucoup de matériel (moteurs, capteurs, structures mécaniques, cartes électroniques, instruments de mesure, outils, visserie, ordinateur ...).<br>De plus les déplacement, particulièrement à l'international, ne sont pas à la portée de tous. <br> C'est pourquoi nous sommes toujours à la recherche de partenaires et de soutien financier.",
+      "content": "La robotique est une activité onéreuse. Elle nécessite beaucoup de matériel (moteurs, capteurs, structures mécaniques, cartes électroniques, instruments de mesure, outils, visserie, ordinateur ...).<br>De plus les déplacements, particulièrement à l'international, ne sont pas à la portée de tous. <br> C'est pourquoi nous sommes toujours à la recherche de partenaires et de soutien financier.",
       "action": "Donner"
     }
   },
