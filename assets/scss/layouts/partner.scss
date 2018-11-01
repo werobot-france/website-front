@@ -1,0 +1,27 @@
+.partners {
+  margin-top: 2em;
+  .partner {
+    &:first-child{
+      display: flex;
+      align-items: center;
+      img {
+        width: 50%;
+      }
+    }
+    &:last-child{
+      display: flex;
+      align-items: center;
+      img {
+        width: 30%;
+      }
+    }
+    margin-top: 1.2em;
+    div:first-child {
+      text-align: center;
+    }
+    div:last-child {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

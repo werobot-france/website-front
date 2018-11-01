@@ -10,14 +10,16 @@
     </div>
     <div
       class="container mx-auto content text">
-      <div v-html="content"></div>
+      <div>
+        <div v-html="content"></div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Legals',
+  name: 'About',
   head () {
     return {
       title: this.$t('about')
@@ -27,8 +29,11 @@ export default {
     return {
       content: require('../assets/content/' + this.$i18n.locale + '/about.md')
     }
+  },
+  mounted () {
+    setTimeout(() => {
+      this.content = require('../assets/content/' + this.$i18n.locale + '/about.md')
+    }, 500)
   }
 }
 </script>
-
-

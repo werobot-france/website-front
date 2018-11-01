@@ -28,28 +28,71 @@ This season, we plan to participate in the [trophées de robotique](http://troph
 
 ## Our team
 
-|   | Name  | functions |
-| :---: | :---: | :---|
-| ![Photo Franck](url) | Franck | President, Coach |
-| ![Photo François](url) | François | Treasurer, Coach|
-| ![Photo Katia](url) | Katia | Secretary |
-| ![Photo Antoine](url) | Antoine | Trophées, Astro-Pi, Communication |
-| ![Photo Félix](url) | Félix | Trophées |
-| ![Photo Mathis](url) | Mathis |  Trophées, Astro-Pi, robotic workshop |
-| ![Photo Matthieu](url) | Matthieu|  Trophées, Astro-Pi, Communication |
-| ![Photo Mohamed](url) | Mohamed |  Trophées, Astro-Pi, Communication |
-| ![Photo Quentin](url) | Quentin | Communication |
+<div class="team-mosaic">
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Frank</p>
+    <p class="team-item-description">President, Coach</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">François</p>
+    <p class="team-item-description">Treasurer, Coach</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Katia</p>
+    <p class="team-item-description">Secretary</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Antoine</p>
+    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Félix</p>
+    <p class="team-item-description">Challenges</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Mathis</p>
+    <p class="team-item-description">Challenges, Astro-Pi, robotic workshop</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Matthieu</p>
+    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Mohamed</p>
+    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
+  </div>
+  <div class="team-item">
+    <img src="https://static.retrobox.tech/img/about/matthieu.jpg" alt="avatar" class="team-item-image">
+    <p class="team-item-title">Quentin</p>
+    <p class="team-item-description">Communication</p>
+  </div>
+</div>
 
 ## They support us
 
 <div class="partners">
-<div class="partner">
-![Logo GIGA](https://s.werobot.fr/logoGIGAreduit.png)
-Since October 2017, the GIGA supports us. We presented them our organization in their general assembly and have had a great financial support from them for our travels ans purchase of equipment.
-</div>
-
-<div class="partner">
-![Logo mairie Gaillon ](https://s.werobot.fr/logoVilleGaillon.jpg)
-At the beginning of the 2017-2018 season, the city hall of Gaillon granted us a small subsidy.
-</div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3">
+      <img src="https://s.werobot.fr/logoGIGAreduit.png">
+    </div>
+    <div class="w-full md:w-2/3">
+      Since October 2017, the GIGA supports us. We presented them our organization in their general assembly and have had a great financial support from them for our travels ans purchase of equipment.
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3">
+      <img src="https://s.werobot.fr/logoVilleGaillon.jpg">
+    </div>
+    <div class="w-full md:w-2/3">
+      At the beginning of the 2017-2018 season, the city hall of Gaillon granted us a small subsidy.
+    </div>
+  </div>
 </div>
