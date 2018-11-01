@@ -9,16 +9,16 @@
     "title": "Build, test, deploy",
     "edito": {
       "title": "Edito",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas eros at purus viverra aliquam. Vivamus quis felis mi. Curabitur interdum mi at pulvinar pretium. In ac neque vulputate, dictum ex id, accumsan purus. Sed lobortis justo velit, sit amet tristique nisl dapibus et."
+      "content": "The year 2018-2019 will be very busy. In addition to our weekly workshop in a local social center in Gaillon, we have two active teams on two challenges. Actually, we participate again in the [french robotic challenges] with Antoine and Mathis but this year Félix joins us. With Matthieu and Mohamed, we also participate in the European [Astro-Pi] challenge which is exciting. We have a lot to do."
     },
     "mission": {
-      "title": "Our mission",
-      "content": "Pellentesque consectetur finibus viverra. Nam commodo finibus dolor et consequat. Aliquam sodales dui risus, sed blandit ligula tincidunt et. Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "title": "Our goal",
+      "content": "Our main purpose is the playful education of teenagers in the fields of STEAM.<br>We have teams of motivated students participate in national and internation robotic competitions.<br>At the same time, we propose an initiation into robotics for children from 8 to 12 years old.",
       "action": "See more..."
     },
     "support": {
       "title": "Support us",
-      "content": "Suspendisse eget mauris eu tellus porttitor laoreet. Nam imperdiet mollis tortor, in aliquam nibh euismod vel.",
+      "content": "Robotics is an expensive activity. It requires a lot of hardware (engines, sensors, mechanical elements, electronic boards, tools, nuts and bolts, computer ...).<br>Moreover, travel, especially internationally, is not within everyone's reach.<br>That's why we are always looking for partners and financial support.",
       "action": "Donate"
     }
   },
