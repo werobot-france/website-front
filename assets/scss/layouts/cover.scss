@@ -21,3 +21,11 @@ $cover-height: 15em;
   background-position-x: center;
   background-position-y: -230px;
 }
+
+@media (max-width: $max-width-responsive-level-1) {
+  .cover {
+      .cover-title {
+        font-size: 1.3em;
+      }
+  }
+}
