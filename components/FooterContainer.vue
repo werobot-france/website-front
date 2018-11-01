@@ -35,7 +35,7 @@
             <div class="footer-links">
               <nuxt-link
                 class="link"
-                to="home">{{ $t('home') }}</nuxt-link>
+                to="/">{{ $t('home') }}</nuxt-link>
               <nuxt-link
                 class="link"
                 to="blog">{{ $t('blog.title') }}</nuxt-link>
