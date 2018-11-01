@@ -3,9 +3,11 @@
 L'association a vu le jour en mai 2017. Son premier but était la participation au [First Global Challenge 2017](https://first.global/archive/fgc-2017/) à Washington D.C.
 
 ### Première compétition
+
 Après trois mois de préparation et de communication, nous rencontrons les 156 pays participants. Le jeu des alliances et un robot pas très performant font que nous nous classons très mal. Néanmoins, la tenue régulière du blog pendant toute les phases de notre préparation nous permettent de revenir avec la médaille d'argent du prix Sofia Kovalevskaya.
 
 ### Saison 2017-2018
+
 Nous avons participé à deux compétitions cette année :
 - Les [trophées de robotique](http://tropheesderobotique.fr)
   - Tout d'abord l'épreuve régionale Normande à laquelle nous sommes arrivés deuxième nous qualifiant ainsi pour l'épreuve nationale.
@@ -19,11 +21,10 @@ Nous y remportons deux prix :
   - Le prix de l'alliance victorieuse car nous remportons ce championnat
 
 ### Saison 2018-2019
+
 L'association évolue. Non seulement elle accueille de nouveaux jeunes pour particper aux concours mais elle ouvre un volet éducation en proposant un atelier hebdomadaire d'initiation à la robotique aux enfants du [Centre Social Condorcet](https://www.espacecondorcet.org/).
 
 Les concours actuellement prévus cette année sont une nouvelle fois les [trophées de robotique](http://tropheesderobotique.fr) et [Astro-Pi](https://www.astro-pi.org).
-
-
 
 ## Nos membres
 
@@ -41,10 +42,14 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 ## Ils nous soutiennent
 
+<div class="partners">
+<div class="partner">
 ![Logo GIGA](https://s.werobot.fr/logoGIGAreduit.png)
-
 Depuis octobre 2017 le GIGA est à nos côtés. Nous leur avons présenté l'association en assemblée générale, nous avons bénéficié d'un fort soutien financier de leur part pour nos déplacements ainsi que l'achat de matériel.
+</div>
 
+<div class="partner">
 ![Logo mairie Gaillon ](https://s.werobot.fr/logoVilleGaillon.jpg)
-
 En début de saison 2017-2018, la mairie de Gaillon nous a accordé une petite subvention
+</div>
+</div>
