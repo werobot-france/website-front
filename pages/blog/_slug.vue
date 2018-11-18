@@ -14,10 +14,13 @@
     <div
       class="container mx-auto content content-container text">
       <div class="page-details">
-        <div class="page-details-item">
+        <div
+          class="page-details-item"
+          style="margin-bottom: 3em">
           <i class="fa fas fa-clock"></i>
           <from-now
-            :value="$store.state.article.created_at"/>
+            :value="$store.state.article.created_at"
+          />
         </div>
       </div>
       <div v-html="$store.state.article.content"></div>
