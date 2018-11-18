@@ -10,10 +10,52 @@
     </div>
     <div class="content">
       <div class="container mx-auto">
-        <h2 class="index-icon-title pt-2">
-          <i class="fa fas fa-newspaper"></i>
-          {{ $t('articles.all') }}
-        </h2>
+        <transition name="main-transition">
+          <div
+            v-if="showDatesList"
+            class="sort-by-dates-container"
+          >
+            <h3>{{ $t('articles.sort-by-dates.title') }}</h3>
+            <ul class="dates-mosaic">
+              <li
+                v-for="(categories, index) in datesCategories"
+                :key="index"
+              >
+                <a
+                  class="link"
+                  href="#"
+                  @click="sortBy(index)">{{ index }}</a> : {{ categories.length }} {{ $t('articles.sort-by-dates.posts') }}
+              </li>
+            </ul>
+          </div>
+        </transition>
+        <div style="display: flex; justify-content: space-between; margin-bottom: 1em; align-items: center">
+          <h2 class="index-icon-title pt-2">
+            <i class="fa fas fa-newspaper"></i>
+            {{ $t('articles.all') }}
+          </h2>
+          <div>
+            <div
+              class="link button button-primary"
+              @click="fetchDates">
+              <div class="button-icon">
+                <i
+                  v-if="!showDatesList"
+                  class="fa fas fa-calendar"></i>
+                <i
+                  v-else
+                  class="fa fas fa-times"></i>
+              </div>
+              <div
+                v-if="!showDatesList"
+                class="button-text">{{ $t('articles.sort-by-dates.title') }}</div>
+              <div
+                v-else
+                class="button-text">{{ $t('articles.sort-by-dates.close') }}</div>
+            </div>
+          </div>
+        </div>
+
         <articles :locale="$i18n.locale" />
       </div>
     </div>
@@ -31,15 +73,38 @@ export default {
   components: {
     'articles': Articles
   },
+  data: () => ({
+    sortDateIndex: '',
+    showDatesList: false,
+    datesCategories: {}
+  }),
   async fetch ({ isServer, store, app }) {
     if (process.server) {
       await store.dispatch('fetchArticles', {app: app, limit: 20})
     } else {
       store.dispatch('fetchArticles', {app: app, limit: 20})
     }
+  },
+  methods: {
+    async fetchDates () {
+      this.showDatesList = !this.showDatesList
+      if (this.showDatesList) {
+        this.datesCategories = await this.$axios.$get('/post/dates?locale=' + this.$i18n.locale).then(response => {
+          return response.data
+        })
+      }
+    },
+    sortBy (dateCategory) {
+      this.$store.commit('SET_ARTICLES', this.datesCategories[dateCategory])
+    }
   }
 }
 </script>
 
 <style>
+  .sort-by-dates-container {
+    background-color: #f5f6fa;
+    padding: 10px;
+    margin-bottom: 2.5em;
+  }
 </style>

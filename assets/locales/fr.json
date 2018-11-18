@@ -33,7 +33,12 @@
     "all": "Tout les articles",
     "last": "Nos derniers articles",
     "title": "Articles",
-    "empty": "Aucun articles disponibles"
+    "empty": "Aucun articles disponibles",
+    "sort-by-dates": {
+      "title": "Trier par dates",
+      "posts": "articles(s)",
+      "close": "Fermer"
+    }
   },
   "photos": {
     "all": "Toute les photos",

@@ -33,7 +33,12 @@
     "all": "All articles",
     "last": "Our last articles",
     "title": "Articles",
-    "empty": "No articles"
+    "empty": "No articles",
+    "sort-by-dates": {
+      "title": "Sort by dates",
+      "posts": "post(s)",
+      "close": "Close"
+    }
   },
   "photos": {
     "all": "All photos",
