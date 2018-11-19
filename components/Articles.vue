@@ -55,7 +55,7 @@
                 </router-link>
               </div>
               <p class="article-description">
-                {{ article.description }}
+                {{ article.description }}...
               </p>
             </div>
           </article>
