@@ -4,7 +4,7 @@
   "title": "We Robot",
   "description": "Created in 2017, local association of robotic for youth, based in Gaillon, France. We participate to international and national competitions, winner of First Global Contest in Washington DC in 2017 and of World Adolescent Robotic Contest in Guyiang, China in 2018.",
   "keywords": ["Gaillon", "Robotic", "We Robot", "France", "Association", "Local"],
-  "slogan": "The french robotic",
+  "slogan": "Robotic, together",
   "landing": {
     "title": "Build, test, deploy",
     "edito": {
@@ -33,7 +33,12 @@
     "all": "All articles",
     "last": "Our last articles",
     "title": "Articles",
-    "empty": "No articles"
+    "empty": "No articles",
+    "sort-by-dates": {
+      "title": "Sort by dates",
+      "posts": "post(s)",
+      "close": "Close"
+    }
   },
   "photos": {
     "all": "All photos",
