@@ -1,4 +1,5 @@
 import marked from 'marked'
+import Moment from 'moment'
 
 export const state = () => ({
   drawerEnabled: false,
@@ -35,7 +36,18 @@ export const actions = {
     context.commit('TOGGLE_LOADING');
     const data = await function () {
       return new Promise((resolve, reject) => {
-        params.app.$axios.get(`/post?limit=${params.limit}&locale=${params.app.i18n.locale}`).then((res) => {
+        let query = ''
+        if (params.limit !== -1) {
+          console.log(params.limit)
+          query = '&limit=' + params.limit
+        }
+        let locale = ''
+        if (params.app.i18n !== undefined) {
+          locale = params.app.i18n.locale
+        } else {
+          locale = params.app.$i18n.locale
+        }
+        params.app.$axios.get(`/post?locale=${locale}${query}`).then((res) => {
           resolve(res.data)
         }).catch((err) => {
           console.log('err');
@@ -60,9 +72,16 @@ export const actions = {
     const data = await function () {
       return new Promise((resolve) => {
         params.context.app.$axios.get(`/post/${params.slug}`).then((res) => {
-          resolve(res.data)
+          let data = res.data
+          Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
+          data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
+          console.log(data.data.post.created_at)
+          resolve(data)
         }).catch((err) => {
-          console.log('err');
+          // console.log(err.response.status)
+          // console.log(err.response.data)
+          // console.log(params.slug)
+          // console.log('err');
           resolve(err.response.status)
         })
       })

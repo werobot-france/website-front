@@ -12,14 +12,14 @@ export default {
       default: ''
     }
   },
-  data () {
+  data() {
     return {
       result: ''
     }
   },
-  mounted () {
+  mounted() {
     Moment.locale(this.$cookie.get('locale'));
-    this.result = Moment(this.value).fromNow()
+    this.result = Moment(this.value).fromNow();
   }
 }
 </script>

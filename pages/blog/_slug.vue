@@ -18,9 +18,7 @@
           class="page-details-item"
           style="margin-bottom: 3em">
           <i class="fa fas fa-clock"></i>
-          <from-now
-            :value="$store.state.article.created_at"
-          />
+          {{ $store.state.article.created_at }}
         </div>
       </div>
       <div v-html="$store.state.article.content"></div>
@@ -29,7 +27,7 @@
 </template>
 
 <script>
-import FromNow from '../../components/FromNow'
+import Moment from 'moment'
 export default {
   head () {
     return {
@@ -42,9 +40,6 @@ export default {
         {property: 'og:image', content: this.$store.state.article.image},
       ],
     }
-  },
-  components: {
-    'from-now': FromNow
   },
   async fetch (context) {
     if (process.server) {

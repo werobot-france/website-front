@@ -80,9 +80,16 @@ export default {
   }),
   async fetch ({ isServer, store, app }) {
     if (process.server) {
-      await store.dispatch('fetchArticles', {app: app, limit: 20})
+      await store.dispatch('fetchArticles', {app: app, limit: -1})
     } else {
-      store.dispatch('fetchArticles', {app: app, limit: 20})
+      store.dispatch('fetchArticles', {app: app, limit: -1})
+    }
+  },
+  watch: {
+    showDatesList: function () {
+      if (!this.showDatesList) {
+        this.$store.dispatch('fetchArticles', {app: this, limit: -1, locale: this.$i18n.locale})
+      }
     }
   },
   methods: {
