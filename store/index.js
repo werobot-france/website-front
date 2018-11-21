@@ -75,7 +75,6 @@ export const actions = {
           let data = res.data
           Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
           data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
-          console.log(data.data.post.created_at)
           resolve(data)
         }).catch((err) => {
           // console.log(err.response.status)
