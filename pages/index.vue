@@ -92,6 +92,25 @@
             <div class="button-text">{{ $t('more') }}</div>
           </nuxt-link>
         </div>
+        <div class="clear-fix"></div>
+        <div class="divider my-5"></div>
+        <div class="partners-quick mt-6 flex flex-wrap">
+          <div class="partner-item w-full md:w-1/2">
+            <h3 class="index-icon-title py-2 mb-2">
+              {{ $t('partners.support-us') }}
+            </h3>
+          </div>
+          <div
+            class="partner-item link w-1/2 md:w-1/4"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/logoGIGAreduit.png" />
+          </div>
+          <div
+            class="partner-item link w-1/2 md:w-1/4"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/logoVilleGaillon.jpg" />
+          </div>
+        </div>
       </div>
     </div>
   </div>

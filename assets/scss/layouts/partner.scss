@@ -25,3 +25,18 @@
     }
   }
 }
+
+.partners-quick {
+  .partner-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: auto;
+      height: 7em;
+    }
+  }
+}
+
+@media (max-width: $max-width-responsive-level-1) {
+}

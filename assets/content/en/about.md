@@ -94,6 +94,8 @@ This season, we plan to participate in the [trophées de robotique](http://troph
   </div>
 </div>
 
+<div id="partners"></div>
+
 ## They support us
 
 <div class="partners">

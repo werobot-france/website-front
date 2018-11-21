@@ -79,5 +79,8 @@
       "description": "Cette page n'existe pas ou plus."
     }
   },
-  "page-not-supported": "Cette page n'est pas disponible dans votre langue actuellement."
+  "page-not-supported": "Cette page n'est pas disponible dans votre langue actuellement.",
+  "partners": {
+    "support-us": "Ils nous soutiennent"
+  }
 }

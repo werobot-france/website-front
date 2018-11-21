@@ -76,6 +76,8 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
 </div>
 
+<div id="partners"></div>
+
 ## Ils nous soutiennent
 
 <div class="partners">
