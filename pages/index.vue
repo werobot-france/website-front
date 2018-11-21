@@ -94,9 +94,9 @@
         </div>
         <div class="clear-fix"></div>
         <div class="divider my-5"></div>
-        <div class="partners-quick mt-6 flex flex-wrap">
+        <div class="partners-quick flex flex-wrap">
           <div class="partner-item w-full md:w-1/2">
-            <h3 class="index-icon-title py-2 mb-2">
+            <h3 class="partner-quick-title py-2">
               {{ $t('partners.support-us') }}
             </h3>
           </div>
