@@ -30,47 +30,65 @@ This season, we plan to participate in the [trophées de robotique](http://troph
 
 <div class="team-mosaic">
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Frank</p>
     <p class="team-item-description">President, Coach</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">François</p>
     <p class="team-item-description">Treasurer, Coach</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secretary</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Antoine</p>
     <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Félix</p>
     <p class="team-item-description">Challenges</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Mathis</p>
     <p class="team-item-description">Challenges, Astro-Pi, robotic workshop</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Matthieu</p>
     <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Mohamed</p>
     <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image">
+      <img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar">
+    </div>
     <p class="team-item-title">Quentin</p>
     <p class="team-item-description">Communication</p>
   </div>

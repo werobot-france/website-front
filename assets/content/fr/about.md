@@ -30,47 +30,47 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 <div class="team-mosaic">
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar"></div>
     <p class="team-item-title">Frank</p>
     <p class="team-item-description">Président de l'association, Coach</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar"></div>
     <p class="team-item-title">François</p>
     <p class="team-item-description">Trésorier de l'association, Coach</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar"></div>
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secrétaire</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar"></div>
     <p class="team-item-title">Antoine</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar"></div>
     <p class="team-item-title">Félix</p>
     <p class="team-item-description">Trophées</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
     <p class="team-item-title">Mathis</p>
     <p class="team-item-description">Trophées, Astro-Pi, atelier de robotique</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar"></div>
     <p class="team-item-title">Matthieu</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar"></div>
     <p class="team-item-title">Mohamed</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar" class="team-item-image">
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar"></div>
     <p class="team-item-title">Quentin</p>
     <p class="team-item-description">Communication</p>
   </div>
@@ -80,8 +80,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 <div class="partners">
   <div class="partner flex flex-wrap">
-    <div
-    class="w-full md:w-1/3">
+    <div class="w-full md:w-1/3">
       <img src="https://s.werobot.fr/logoGIGAreduit.png">
     </div>
     <div class="w-full md:w-2/3">
