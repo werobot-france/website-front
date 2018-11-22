@@ -8,7 +8,9 @@
         class="link">
         <div class="header-title-container">
           <div class="header-logo">
-            <img src="~/assets/img/logo.jpg">
+            <img
+              src="~/assets/img/logo.png"
+              class="logo">
           </div>
           <div class="header-title">
             <div class="header-title-title">{{ $t('title') }}</div>

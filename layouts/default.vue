@@ -39,7 +39,7 @@ export default {
         {property: 'og:title', content: this.$t('title')},
         {property: 'og:description', content: this.$t('description')},
         {property: 'og:locale', content: this.$i18n.locale},
-        {property: 'og:image', content: '/logo.jpg'},
+        {property: 'og:image', content: '/logo.png'},
         {property: 'og:locale:alternate', content: 'fr'},
         {property: 'og:locale:alternate', content: 'en'}
       ],

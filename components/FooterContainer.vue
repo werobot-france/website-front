@@ -18,7 +18,9 @@
                 class="link footer-logo"
                 to="/"
               >
-                <img src="~/assets/img/logo.jpg">
+                <img
+                  src="~/assets/img/logo.png"
+                  class="logo">
               </nuxt-link>
               <div>
                 <div class="footer-title">
