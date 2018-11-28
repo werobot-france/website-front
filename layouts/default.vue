@@ -10,9 +10,11 @@
         <main
           id="page-wrap"
           :class="{'disabled': $store.state.drawerEnabled}">
-          <header-container/>
-          <nuxt class="content-container"/>
-          <footer-container/>
+          <header-container ref="header" />
+          <nuxt
+            :class="{'not-complete' : $store.state.headerComplete === false}"
+            class="content-container" />
+          <footer-container />
         </main>
       </div>
     </transition>

@@ -7,12 +7,16 @@ export const state = () => ({
   isLoading: false,
   articles: [],
   article: {},
-  locale: 'fr'
+  locale: 'fr',
+  headerComplete: true
 });
 
 export const mutations = {
   TOGGLE_DRAWER: function (state, enabled = true) {
     state.drawerEnabled = enabled;
+  },
+  SET_HEADER_COMPLETE: function (state, enabled) {
+    state.headerComplete = enabled
   },
   SHOW_BODY: function (state) {
     state.showBody = true

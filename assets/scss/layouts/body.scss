@@ -9,6 +9,12 @@
 //.content-container {
 //}
 
+.content-container.not-complete {
+  position: relative;
+  top: 97px;
+  padding-bottom: 97px;
+}
+
 .content {
   margin-top: 1em;
   line-height: 2.2em;
