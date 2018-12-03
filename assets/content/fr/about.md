@@ -8,6 +8,10 @@ Après trois mois de préparation et de communication, nous rencontrons les 156 
 
 ### Saison 2017-2018
 
+<center>
+  <img alt="Notre ancien logo" src="https://s.werobot.fr/old_logo.png" title="Notre ancien logo" width="100" />
+</center>
+
 Nous avons participé à deux compétitions cette année :
 - Les [trophées de robotique](http://tropheesderobotique.fr)
   - Tout d'abord l'épreuve régionale Normande à laquelle nous sommes arrivés deuxième nous qualifiant ainsi pour l'épreuve nationale.

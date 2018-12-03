@@ -8,6 +8,10 @@ After three months spent building, training and communicating, we finally met th
 
 ### 2017-2018 season
 
+<center>
+  <img alt="Our old logo" src="https://s.werobot.fr/old_logo.png" title="Our old logo" width="100" />
+</center>
+
 We participated in two competitions :
 - The [trophées de robotique](http://tropheesderobotique.fr)
   - First the regional contest. We ranked second and thus were qualified for the national level.
