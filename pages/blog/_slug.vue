@@ -21,7 +21,9 @@
           {{ $store.state.article.created_at }}
         </div>
       </div>
-      <div v-html="$store.state.article.content"></div>
+      <div
+        class="blog-article"
+        v-html="$store.state.article.content"></div>
     </div>
   </div>
 </template>
