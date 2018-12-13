@@ -8,6 +8,13 @@
         width: 50%;
       }
     }
+    &:nth-child(2) {
+      display: flex;
+      align-items: center;
+      img {
+        width: 40%;
+      }
+    }
     &:last-child{
       display: flex;
       align-items: center;
@@ -16,12 +23,8 @@
       }
     }
     margin-top: 1.2em;
-    div:first-child {
+    .partner-image {
       text-align: center;
-    }
-    div:last-child {
-      display: flex;
-      align-items: center;
     }
   }
 }
@@ -39,6 +42,6 @@
     }
   }
 }
-
-@media (max-width: $max-width-responsive-level-1) {
-}
+//
+//@media (max-width: $max-width-responsive-level-1) {
+//}
