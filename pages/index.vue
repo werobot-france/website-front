@@ -101,17 +101,17 @@
             </h3>
           </div>
           <div
-            class="partner-item link md:w-1/3"
+            class="partner-item link w-1/2 md:w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </div>
           <div
-            class="partner-item link w-full md:w-1/3"
+            class="partner-item link w-1/2 md:w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg" />
           </div>
           <div
-            class="partner-item link w-1/3"
+            class="partner-item link w-full md:w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoVilleGaillon.jpg" />
           </div>
