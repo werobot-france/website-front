@@ -63,13 +63,6 @@ This season, we plan to participate in the [trophées de robotique](http://troph
   </div>
   <div class="team-item">
     <div class="team-item-image">
-      <img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Félix</p>
-    <p class="team-item-description">Challenges</p>
-  </div>
-  <div class="team-item">
-    <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Mathis</p>

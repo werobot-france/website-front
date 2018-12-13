@@ -54,11 +54,6 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/felix.jpg" alt="avatar"></div>
-    <p class="team-item-title">Félix</p>
-    <p class="team-item-description">Trophées</p>
-  </div>
-  <div class="team-item">
     <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
     <p class="team-item-title">Mathis</p>
     <p class="team-item-description">Trophées, Astro-Pi, atelier de robotique</p>
