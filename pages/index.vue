@@ -95,18 +95,23 @@
         <div class="clear-fix"></div>
         <div class="divider my-5"></div>
         <div class="partners-quick flex flex-wrap">
-          <div class="partner-item w-full md:w-1/2">
-            <h3 class="partner-quick-title py-2">
+          <div class="partner-item w-full">
+            <h3 class="partner-quick-title py-2 mb-2">
               {{ $t('partners.support-us') }}
             </h3>
           </div>
           <div
-            class="partner-item link w-1/2 md:w-1/4"
+            class="partner-item link md:w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </div>
           <div
-            class="partner-item link w-1/2 md:w-1/4"
+            class="partner-item link w-full md:w-1/3"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg" />
+          </div>
+          <div
+            class="partner-item link w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoVilleGaillon.jpg" />
           </div>
