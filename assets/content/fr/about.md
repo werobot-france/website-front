@@ -89,9 +89,9 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     </div>
   </div>
   <div class="partner flex flex-wrap">
-    <div class="w-full md:w-1/3 partner-image">
+    <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
       <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg">
-    </div>
+    </a>
     <div class="w-full md:w-2/3">
       <div>
         Depuis décembre 2018, l'<a href="https://uimm.lafabriquedelavenir.fr/">UIMM</a> du département de l'Eure nous soutient et nous aide dans l'achat de notre matériel et nos supports de communications
