@@ -98,9 +98,18 @@ $footer-cover-height: 10em;
 @media (max-width: $max-width-responsive-level-1) {
   .footer {
     .footer-container {
+      padding-top: 1em;
       .footer-title-container {
+        flex-direction: column;
+        text-align: center;
         .footer-logo {
-          margin-right: 1em;
+          margin-right: 0;
+          margin-bottom: 1em;
+          img {
+            display: flex;
+            margin: 0 auto;
+            width: 8em;
+          }
         }
       }
       .footer-links {
