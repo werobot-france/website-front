@@ -89,12 +89,42 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     </div>
   </div>
   <div class="partner flex flex-wrap">
-    <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
+      <img src="https://static.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
-        Depuis décembre 2018, l'<a href="https://uimm.lafabriquedelavenir.fr/">UIMM</a> du département de l'Eure nous soutient et nous aide dans l'achat de notre matériel et nos supports de communications
+        Pour la saison 2018-2019, la <a href="https://www.papavoine-menuiserie.com/">menuiserie Papavoine</a> nous propose de nous aider à réaliser les éléments de la table de jeu des Trophées de robotique.
+      </div>
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
+      <img src="https://static.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Pour la saison 2018-2019, la <a href="https://www.papavoine-menuiserie.com/">menuiserie Papavoine</a> nous propose de nous aider à réaliser les éléments de la table de jeu des Trophées de robotique.
+      </div>
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
+      <img src="https://static.werobot.fr/blog/bob-ross/5c166152b874d.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Depuis novembre 2018, le <a href="https://www.girv.com/">Groupement Interprofessionnel de la Région de Vernon</a> nous fait confiance en nous permettant de rencontrer des partenaires membres. Nous avons pu présenter notre association au salon professionnel du GIRV puis à son assemblée générale de décembre.
+      </div>
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://marianneurope.fr/">
+      <img src="https://static.werobot.fr/blog/bob-ross/5c16602b6ef87.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Depuis novembre 2018, l'<a href="https://marianneurope.fr/">agence de conseil Marianne Europe</a> nous a inscrit à ses deux newsletters professionnelles afin que nous puissions nous tenir informer des initiatives et des innovations locales et nous mettre en relation avec les entreprises innovantes de notre secteur.
       </div>
     </div>
   </div>
