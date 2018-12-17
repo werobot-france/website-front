@@ -40,19 +40,19 @@
           <div class="header-nav-item">
             <nuxt-link
               :class="{'active': $route.name === 'blog'}"
-              to="blog"
+              to="/blog"
               class="link">{{ $t('blog.title') }}</nuxt-link>
           </div>
           <div class="header-nav-item">
             <nuxt-link
               :class="{'active': $route.name === 'about'}"
-              to="about"
+              to="/about"
               class="link">{{ $t('about') }}</nuxt-link>
           </div>
           <div class="header-nav-item">
             <nuxt-link
               :class="{'active': $route.name === 'contact-us'}"
-              to="contact-us"
+              to="/contact-us"
               class="link">{{ $t('contact-us.title') }}</nuxt-link>
           </div>
           <div class="header-nav-item">

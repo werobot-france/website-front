@@ -40,10 +40,10 @@
                 to="/">{{ $t('home') }}</nuxt-link>
               <nuxt-link
                 class="link"
-                to="blog">{{ $t('blog.title') }}</nuxt-link>
+                to="/blog">{{ $t('blog.title') }}</nuxt-link>
               <nuxt-link
                 class="link"
-                to="photos">{{ $t('photos.title') }}</nuxt-link>
+                to="/photos">{{ $t('photos.title') }}</nuxt-link>
               <a
                 :href="$env.donate"
                 class="link">{{ $t('donate') }}</a>
@@ -53,13 +53,13 @@
             <div class="footer-links">
               <nuxt-link
                 class="link"
-                to="about">{{ $t('about') }}</nuxt-link>
+                to="/about">{{ $t('about') }}</nuxt-link>
               <nuxt-link
                 class="link"
-                to="contact-us">{{ $t('contact-us.title') }}</nuxt-link>
+                to="/contact-us">{{ $t('contact-us.title') }}</nuxt-link>
               <nuxt-link
                 class="link"
-                to="legals">{{ $t('legals') }}</nuxt-link>
+                to="/legals">{{ $t('legals') }}</nuxt-link>
             </div>
           </div>
         </div>
