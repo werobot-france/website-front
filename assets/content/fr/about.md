@@ -99,16 +99,6 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     </div>
   </div>
   <div class="partner flex flex-wrap">
-    <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
-      <img src="https://static.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
-    </a>
-    <div class="w-full md:w-2/3">
-      <div>
-        Pour la saison 2018-2019, la <a href="https://www.papavoine-menuiserie.com/">menuiserie Papavoine</a> nous propose de nous aider à réaliser les éléments de la table de jeu des Trophées de robotique.
-      </div>
-    </div>
-  </div>
-  <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
       <img src="https://static.werobot.fr/blog/bob-ross/5c166152b874d.png">
     </a>
