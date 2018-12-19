@@ -89,8 +89,18 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     </div>
   </div>
   <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
+      <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Depuis décembre 2018, l'<a href="https://uimm.lafabriquedelavenir.fr/">UIMM</a> du département de l'Eure nous soutient et nous aide dans l'achat de notre matériel et nos supports de communications
+      </div>
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
-      <img src="https://static.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
+      <img src="https://s.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -100,7 +110,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
-      <img src="https://static.werobot.fr/blog/bob-ross/5c166152b874d.png">
+      <img src="https://s.werobot.fr/blog/bob-ross/5c166152b874d.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -110,7 +120,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://marianneurope.fr/">
-      <img src="https://static.werobot.fr/blog/bob-ross/5c16602b6ef87.png">
+      <img src="https://s.werobot.fr/blog/bob-ross/5c16602b6ef87.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>
