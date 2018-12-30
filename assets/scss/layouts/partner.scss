@@ -34,8 +34,11 @@
 }
 
 .partners-quick {
-  margin-top: 2em;
+  margin-top: 1.5em;
   margin-bottom: -2.5em;
+  .partner-quick-title {
+    margin-bottom: .5em;
+  }
   .partner-item {
     display: flex;
     justify-content: center;
@@ -44,8 +47,23 @@
       width: auto;
       height: 7em;
     }
+    &:nth-of-type(5) {
+      img {
+        height: 5em;
+      }
+    }
+    &:nth-of-type(6) {
+      img {
+        height: 6em;
+      }
+    }
   }
 }
-//
-//@media (max-width: $max-width-responsive-level-1) {
-//}
+
+@media (max-width: $max-width-responsive-level-1) {
+  .partners-quick .partner-item {
+    img {
+      padding: 10px;
+    }
+  }
+}

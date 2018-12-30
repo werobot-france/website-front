@@ -95,25 +95,40 @@
         <div class="clear-fix"></div>
         <div class="divider my-5"></div>
         <div class="partners-quick flex flex-wrap">
-          <div class="partner-item w-full">
+          <div class="partner-quick-title partner-item w-full">
             <h3 class="partner-quick-title py-2 mb-2">
               {{ $t('partners.support-us') }}
             </h3>
           </div>
+          <!-- GIGA -->
           <div
-            class="partner-item link w-1/2 md:w-1/3"
+            class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </div>
+          <!-- UIMM -->
           <div
-            class="partner-item link w-1/2 md:w-1/3"
+            class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg" />
           </div>
+          <!-- Gaillon -->
           <div
-            class="partner-item link w-full md:w-1/3"
+            class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoVilleGaillon.jpg" />
+          </div>
+          <!-- Girv -->
+          <div
+            class="partner-item link w-1/2 md:w-1/5"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/blog/bob-ross/5c166152b874d.png" />
+          </div>
+          <!-- Papavoine -->
+          <div
+            class="partner-item link w-full md:w-1/5"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg" />
           </div>
         </div>
       </div>
