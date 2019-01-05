@@ -42,7 +42,6 @@ export const actions = {
       return new Promise((resolve, reject) => {
         let query = ''
         if (params.limit !== -1) {
-          console.log(params.limit)
           query = '&limit=' + params.limit
         }
         let locale = ''
