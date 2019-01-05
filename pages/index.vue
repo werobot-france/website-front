@@ -132,7 +132,7 @@
           <!-- Papavoine -->
           <Tooltip
             to="/about#partners"
-            value="Papavoine"
+            value="Menuiserie Papavoine"
             class="partner-item link w-full md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/papavoine.jpg" />
