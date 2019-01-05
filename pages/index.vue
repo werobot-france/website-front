@@ -102,9 +102,9 @@
           </div>
           <!-- GIGA -->
           <Tooltip
+            to="/about#partners"
             value="Groupement Interprofessionnel De Gaillon - Les Andelys"
-            class="partner-item link w-1/2 md:w-1/5"
-            @click="$router.push({ path: '/about#partners' })">
+            class="partner-item link w-1/2 md:w-1/5">
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </Tooltip>
           <!-- UIMM -->
@@ -115,6 +115,7 @@
           </div>
           <!-- Gaillon -->
           <Tooltip
+            to="/about#partners"
             value="Ville de Gaillon"
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
@@ -122,6 +123,7 @@
           </Tooltip>
           <!-- Girv -->
           <Tooltip
+            to="/about#partners"
             value="Groupement Interprofessionnel de la Région de Vernon"
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
@@ -129,6 +131,7 @@
           </Tooltip>
           <!-- Papavoine -->
           <Tooltip
+            to="/about#partners"
             value="Papavoine"
             class="partner-item link w-full md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">

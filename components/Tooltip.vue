@@ -5,7 +5,8 @@
     </div>
     <div
       v-tooltip.top="value"
-      v-else>
+      v-else
+      @click="$router.push(to)">
       <slot/>
     </div>
   </div>
@@ -16,6 +17,10 @@ export default {
   name: 'Tooltip',
   props: {
     value: {
+      type: String,
+      default: ''
+    },
+    to: {
       type: String,
       default: ''
     }
