@@ -64,6 +64,7 @@ module.exports = {
   plugins: [
     '~/plugins/i18n.js',
     '~/plugins/env.js',
+    {src: '~/plugins/tooltip.js', ssr: false},
     {src: '~/plugins/localStorage.js', ssr: false},
     {src: '~/plugins/cookie.js', ssr: false},
     {src: '~/plugins/slideMenu.js', ssr: false}
@@ -110,6 +111,7 @@ module.exports = {
       }
     }
   },
+
   router: {
     middleware: 'i18n'
   },

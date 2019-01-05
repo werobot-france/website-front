@@ -101,34 +101,44 @@
             </h3>
           </div>
           <!-- GIGA -->
-          <div
+          <Tooltip
+            value="Groupement Interprofessionnel De Gaillon - Les Andelys"
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
-          </div>
+          </Tooltip>
           <!-- UIMM -->
           <div
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
-            <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg" />
+            <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg" />
           </div>
           <!-- Gaillon -->
-          <div
+          <Tooltip
+            value="Ville de Gaillon"
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/logoVilleGaillon.jpg" />
-          </div>
+          </Tooltip>
           <!-- Girv -->
-          <div
+          <Tooltip
+            value="Groupement Interprofessionnel de la Région de Vernon"
             class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
-            <img src="https://s.werobot.fr/blog/bob-ross/5c166152b874d.png" />
-          </div>
+            <img src="https://s.werobot.fr/girv.png" />
+          </Tooltip>
           <!-- Papavoine -->
-          <div
+          <Tooltip
+            value="Papavoine"
             class="partner-item link w-full md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
-            <img src="https://s.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg" />
+            <img src="https://s.werobot.fr/papavoine.jpg" />
+          </Tooltip>
+          <!-- Atis computer -->
+          <div
+            class="partner-item link w-full md:w-1/2"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/atisComputer.jpg" />
           </div>
         </div>
       </div>
@@ -139,6 +149,7 @@
 <script>
 import Photos from '~/components/Photos.vue'
 import Articles from '~/components/Articles.vue'
+import Tooltip from "../components/Tooltip"
 export default {
   head () {
     return {
@@ -146,6 +157,7 @@ export default {
     }
   },
   components: {
+    Tooltip,
     'photos': Photos,
     'articles': Articles
   },

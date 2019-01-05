@@ -90,7 +90,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg">
+      <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -100,7 +100,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c165ee3e7bb6.jpg">
+      <img src="https://s.werobot.fr/papavoine.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -110,7 +110,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c166152b874d.png">
+      <img src="https://s.werobot.fr/girv.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -120,7 +120,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://marianneurope.fr/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c16602b6ef87.png">
+      <img src="https://s.werobot.fr/marianneEurope.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>

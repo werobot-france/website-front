@@ -106,7 +106,7 @@ This season, we plan to participate in the [trophées de robotique](http://troph
   </div>  
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
-      <img src="https://s.werobot.fr/blog/bob-ross/5c1276a18d8e1.jpg">
+      <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>

@@ -35,7 +35,8 @@
 
 .partners-quick {
   margin-top: 1.5em;
-  margin-bottom: -2.5em;
+  margin-bottom: -2em;
+  justify-content: space-around;
   .partner-quick-title {
     margin-bottom: .5em;
   }
@@ -55,6 +56,12 @@
     &:nth-of-type(6) {
       img {
         height: 6em;
+      }
+    }
+    &:nth-of-type(7) {
+      margin-top: 2.5em;
+      img {
+        height: 4em;
       }
     }
   }
