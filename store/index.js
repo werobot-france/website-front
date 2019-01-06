@@ -8,7 +8,8 @@ export const state = () => ({
   articles: [],
   article: {},
   locale: 'fr',
-  headerComplete: true
+  headerComplete: true,
+  onSwappedLocale: () => null
 });
 
 export const mutations = {
@@ -32,6 +33,9 @@ export const mutations = {
   },
   TOGGLE_LOADING: function (state) {
     state.isLoading = !state.isLoading
+  },
+  SET_ON_SWAPPED_LOCALE: function (state, payload) {
+    state.onSwappedLocale = payload
   }
 };
 
