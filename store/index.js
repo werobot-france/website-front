@@ -9,7 +9,7 @@ export const state = () => ({
   article: {},
   locale: 'fr',
   headerComplete: true,
-  onSwappedLocale: () => null
+  onSwappedLocale: null
 });
 
 export const mutations = {
@@ -81,6 +81,23 @@ export const actions = {
         params.context.app.$axios.get(`/post/${params.slug}`).then((res) => {
           let data = res.data
           Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
+
+          const regex = /src=\"[A-z:\/.\-0-9]+\"/gm;
+          const str = data.data.post.content;
+          let m;
+
+          while ((m = regex.exec(str)) !== null) {
+            // This is necessary to avoid infinite loops with zero-width matches
+            if (m.index === regex.lastIndex) {
+              regex.lastIndex++;
+            }
+
+            // The result can be accessed through the `m`-variable.
+            m.forEach((match, groupIndex) => {
+              console.log(`Found match, group ${groupIndex}: ${match}`);
+            });
+          }
+
           data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
           resolve(data)
         }).catch((err) => {

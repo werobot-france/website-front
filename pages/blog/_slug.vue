@@ -29,7 +29,6 @@
 </template>
 
 <script>
-import Moment from 'moment'
 export default {
   head () {
     return {
@@ -46,9 +45,6 @@ export default {
   created () {
     this.$store.commit('SET_ON_SWAPPED_LOCALE', locale => {
       return new Promise((resolve) => {
-        console.log('hello')
-        console.log('swapped locale')
-        console.log(locale)
         this.$axios.get('/post?identifier=' + this.$store.state.article.identifier + '&locale=' + locale).then(response => {
           resolve(window.location.toString().replace(this.$store.state.article.slug, response.data.data.posts[0].slug))
         })

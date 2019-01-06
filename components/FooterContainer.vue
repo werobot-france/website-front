@@ -134,18 +134,22 @@ export default {
       locale = locales.filter((l) => l !== locale)[0];
       this.$i18n.locale = locale;
       this.$cookie.set('locale', locale);
-      let swappedLocaleResponse = this.$store.state.onSwappedLocale(locale)
-      this.$store.commit('SET_ON_SWAPPED_LOCALE', () => null)
-      if (swappedLocaleResponse === null || swappedLocaleResponse === window.location) {
-        window.location.reload(false);
+      if (typeof this.$store.state.onSwappedLocale === 'function') {
+        let swappedLocaleResponse = this.$store.state.onSwappedLocale(locale)
+        this.$store.commit('SET_ON_SWAPPED_LOCALE', null)
+        if (typeof swappedLocaleResponse.then !== 'function' && (swappedLocaleResponse === null || swappedLocaleResponse === window.location)) {
+          window.location.reload(false);
+        } else {
+          swappedLocaleResponse.then(url => {
+            if (url === null || url === window.location) {
+              window.location.reload(false);
+            } else {
+              window.location = url
+            }
+          })
+        }
       } else {
-        swappedLocaleResponse.then(url => {
-          if (url === null || url === window.location) {
-            window.location.reload(false);
-          } else {
-            window.location = url
-          }
-        })
+        window.location.reload(false);
       }
     }
   }
