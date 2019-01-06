@@ -108,11 +108,12 @@
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </Tooltip>
           <!-- UIMM -->
-          <div
-            class="partner-item link w-1/2 md:w-1/5"
-            @click="$router.push({ path: '/about#partners' })">
+          <Tooltip
+            to="/about#partners"
+            value="Union des Industries et Métiers de la Métallurgie"
+            class="partner-item link w-1/2 md:w-1/5">
             <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg" />
-          </div>
+          </Tooltip>
           <!-- Gaillon -->
           <Tooltip
             to="/about#partners"
@@ -138,11 +139,13 @@
             <img src="https://s.werobot.fr/papavoine.jpg" />
           </Tooltip>
           <!-- Atis computer -->
-          <div
+          <Tooltip
+            to="/about#partners"
+            value="Atis computer"
             class="partner-item link w-full md:w-1/2"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/atisComputer.jpg" />
-          </div>
+          </Tooltip>
         </div>
       </div>
     </div>
