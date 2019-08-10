@@ -71,7 +71,13 @@ export default {
   mounted () {
     if (!process.server) {
       window.addEventListener('scroll', (scrollObject) => {
-        this.$store.commit('SET_HEADER_COMPLETE', scrollObject.pageY < 71)
+        let enabled = window.scrollY < 1;
+        if (enabled && !this.$store.state.headerComplete) {
+          this.$store.commit('SET_HEADER_COMPLETE', true)
+        }
+        if (!enabled && this.$store.state.headerComplete) {
+          this.$store.commit('SET_HEADER_COMPLETE', false)
+        }
       })
     }
   }

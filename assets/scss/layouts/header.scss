@@ -125,3 +125,8 @@ $logo-responsive-height: 4em;
     }
   }
 }
+
+.header-locale-container {
+  display: flex;
+  justify-content: flex-end;
+}
