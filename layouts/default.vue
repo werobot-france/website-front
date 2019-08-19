@@ -8,8 +8,9 @@
           <drawer/>
         </no-ssr>
         <main
-          id="page-wrap"
-          :class="{'disabled': $store.state.drawerEnabled}">
+          id="main-page-wrap"
+          :class="{'disabled': $store.state.drawerEnabled}"
+          class="main-page-wrap">
           <header-container ref="header" />
           <div
             class="header-locale-container container mx-auto "

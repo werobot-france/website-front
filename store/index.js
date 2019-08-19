@@ -13,8 +13,8 @@ export const state = () => ({
 });
 
 export const mutations = {
-  TOGGLE_DRAWER: function (state, enabled = true) {
-    state.drawerEnabled = enabled;
+  TOGGLE_DRAWER: function (state, enabled = null) {
+    state.drawerEnabled = enabled === null ? !state.drawerEnabled : enabled;
   },
   SET_HEADER_COMPLETE: function (state, enabled) {
     state.headerComplete = enabled
