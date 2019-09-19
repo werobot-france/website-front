@@ -134,7 +134,7 @@
           <Tooltip
             to="/about#partners"
             value="Menuiserie Papavoine"
-            class="partner-item link w-full md:w-1/5"
+            class="partner-item link w-1/2 md:w-1/5"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/papavoine.jpg" />
           </Tooltip>
@@ -142,9 +142,25 @@
           <Tooltip
             to="/about#partners"
             value="Atis computer"
-            class="partner-item link w-full md:w-1/2"
+            class="partner-item link w-1/2 md:w-1/3"
             @click="$router.push({ path: '/about#partners' })">
             <img src="https://s.werobot.fr/atisComputer.jpg" />
+          </Tooltip>
+          <!-- SKF -->
+          <Tooltip
+            to="/about#partners"
+            value="SKF"
+            class="partner-item link w-full md:w-1/3"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/skf.png" />
+          </Tooltip>
+          <!-- ariane group -->
+          <Tooltip
+            to="/about#partners"
+            value="Ariane Group"
+            class="partner-item link w-full md:w-1/3 md:pt-4"
+            @click="$router.push({ path: '/about#partners' })">
+            <img src="https://s.werobot.fr/arianegroup.png" />
           </Tooltip>
         </div>
       </div>

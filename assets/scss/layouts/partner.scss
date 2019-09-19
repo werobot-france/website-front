@@ -59,9 +59,14 @@
       }
     }
     &:nth-of-type(7) {
-      margin-top: 2.5em;
+      //margin-top: 2.5em;
       img {
         height: 4em;
+      }
+    }
+    &:nth-of-type(8) {
+      img {
+        padding: 1em;
       }
     }
   }
