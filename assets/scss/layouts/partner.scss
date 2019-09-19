@@ -1,27 +1,39 @@
-  .partners {
+.partners {
   margin-top: 2em;
   .partner {
     &:first-child img {
-      width: 50%;
+      width: 60%;
     }
     &:nth-child(2) img {
       width: 50%;
     }
     &:nth-child(3) img {
       width: 40%;
+      margin-bottom: 1em;
     }
     &:nth-child(4) img {
-      width: 45%;
+      width: 60%;
     }
+    // arianegroup
     &:nth-child(5) img {
+      width: 65%;
+    }
+    // gaillon
+    &:nth-child(6) img {
       width: 40%;
     }
-    &:last-child {
-      margin-top: 1.5em;
+    &:nth-child(7) {
+      margin-top: 2.2em;
       img {
-        width: 30%;
+        width: 55%;
       }
     }
+    &:nth-child(8) {
+      margin-top: 2.2em;
+      img {
+        width: 75%;
+      }
+    } 
     margin-top: 1.2em;
 
     .partner-image {
@@ -76,6 +88,37 @@
   .partners-quick .partner-item {
     img {
       padding: 10px;
+    }
+  }
+  .partners {
+    margin-top: 2em;
+    .partner {
+      &:nth-child(4) img {
+        margin-top: .5em;
+        margin-bottom: 1em;
+      }
+      // arianegroup
+      &:nth-child(5) img {
+        margin-top: .5em;
+        margin-bottom: 1em;
+      }
+      // gaillon
+      &:nth-child(6) img {
+        margin-top: 1em;
+        margin-bottom: .5em;
+      }
+      &:nth-child(7) {
+        margin-top: 2em;
+        img {
+          margin-bottom: 1em;
+        }
+      }
+      &:nth-child(8) {
+        margin-top: 2em;
+        img {
+          margin-bottom: 1em;
+        }
+      }
     }
   }
 }

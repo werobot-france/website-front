@@ -114,11 +114,21 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     </a>
     <div class="w-full md:w-2/3">
       <div>
-        Depuis novembre 2018, le <a href="https://www.girv.com/">Groupement Interprofessionnel de la Région de Vernon</a> nous fait confiance en nous permettant de rencontrer des partenaires membres. Nous avons pu présenter notre association au salon professionnel du GIRV puis à son assemblée générale de décembre.
+        Depuis novembre 2018, le <a href="https://www.girv.com/">Groupement Interprofessionnel de la Région de Vernon</a> nous fait confiance en nous permettant de rencontrer des partenaires membres. Nous avons pu présenter notre association au salon professionnel du GIRV puis à son assemblée générale de décembre. Suite à celle-ci, il a participé à l'achat de l'imprimante 3D de notre association en février 2019.
       </div>
     </div>
   </div>
   <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.ariane.group">
+      <img src="https://s.werobot.fr/arianegroup_lg.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Ariane Group Vernon a participé à l'achat de l'imprimante 3D de notre association en février 2019.
+      </div>
+    </div>
+  </div>
+  <!-- <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://marianneurope.fr/">
       <img src="https://s.werobot.fr/marianneEurope.png">
     </a>
@@ -127,13 +137,30 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
         Depuis novembre 2018, l'<a href="https://marianneurope.fr/">agence de conseil Marianne Europe</a> nous a inscrit à ses deux newsletters professionnelles afin que nous puissions nous tenir informer des initiatives et des innovations locales et nous mettre en relation avec les entreprises innovantes de notre secteur.
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="partner flex flex-wrap">
     <div class="w-full md:w-1/3 partner-image">
       <img src="https://s.werobot.fr/logoVilleGaillon.jpg">
     </div>
     <div class="w-full md:w-2/3">
       En début de saison 2017-2018, la mairie de Gaillon nous a accordé une petite subvention.
+      Depuis avril 2019, elle nous prête de grands locaux pour toutes nos activités et se montre très à l'écoute de nos besoins.
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3 partner-image">
+      <img src="https://s.werobot.fr/skf.png">
+    </div>
+    <div class="w-full md:w-2/3">
+      SKF Vernon a participé à l'achat de l'imprimante 3D de notre association en février 2019.
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3 partner-image">
+      <img src="https://s.werobot.fr/atisComputer.jpg">
+    </div>
+    <div class="w-full md:w-2/3">
+      Nous soutient depuis avril 2019. Nous a déjà fourni 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
     </div>
   </div>
 </div>
