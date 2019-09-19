@@ -103,7 +103,9 @@ This season, we plan to participate in the [trophées de robotique](http://troph
     <div class="w-full md:w-2/3">
       Since October 2017, the GIGA supports us. We presented them our organization in their general assembly and have had a great financial support from them for our travels ans purchase of equipment.
     </div>
-  </div>  
+  </div>
+  <div class="partner flex flex-wrap">
+  </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
       <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
@@ -115,11 +117,56 @@ This season, we plan to participate in the [trophées de robotique](http://troph
     </div>
   </div>
   <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
+      <img src="https://s.werobot.fr/girv.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Since november 2018, the <a href="https://www.girv.com/">Groupement Interprofessionnel de la Région de Vernon</a> trusts us and allowed us to meet new partners. We were able to present our non-profit during both their trade show and their general assembly in december. They also helped to buy us a 3D printer in february 2019.
+      </div>
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.ariane.group">
+      <img src="https://s.werobot.fr/arianegroup_lg.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      Ariane Group Vernon helped to buy us a 3D printer in february 2019.
+    </div>
+  </div>
+  <!-- <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://marianneurope.fr/">
+      <img src="https://s.werobot.fr/marianneEurope.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        Depuis novembre 2018, l'<a href="https://marianneurope.fr/">agence de conseil Marianne Europe</a> nous a inscrit à ses deux newsletters professionnelles afin que nous puissions nous tenir informer des initiatives et des innovations locales et nous mettre en relation avec les entreprises innovantes de notre secteur.
+      </div>
+    </div>
+  </div> -->
+  <div class="partner flex flex-wrap">
     <div class="w-full md:w-1/3 partner-image">
       <img src="https://s.werobot.fr/logoVilleGaillon.jpg">
     </div>
     <div class="w-full md:w-2/3">
       At the beginning of the 2017-2018 season, the city hall of Gaillon granted us a small subsidy.
+      Since april 2019, it lends us a wide venue to host our activities.
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3 partner-image">
+      <img src="https://s.werobot.fr/skf.png">
+    </div>
+    <div class="w-full md:w-2/3">
+      SKF Vernon helped to buy us a 3D printer in february 2019.
+    </div>
+  </div>
+  <div class="partner flex flex-wrap">
+    <div class="w-full md:w-1/3 partner-image">
+      <img src="https://s.werobot.fr/atisComputer.jpg">
+    </div>
+    <div class="w-full md:w-2/3">
+      Helps us since april 2019. They already gave us 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
     </div>
   </div>
 </div>
