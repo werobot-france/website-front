@@ -21,13 +21,13 @@ Le responsable de la publication du site werobot.fr est :
 
 ## Hébergeur 
 
-Werobot héberge ses services en ligne, le site web (werobot.fr) ainsi que son api interne (api.werobot.fr) sur la platforme [Scaleway](https://www.scaleway.com) géré par la société [Online.net](https://www.online.net), son adresse étant : Online SAS - BP 438 - 75366 Paris CEDEX
+Werobot héberge ses services en ligne, le site web (werobot.fr) ainsi que son api interne (api.werobot.fr) sur la platforme [Scaleway](https://www.scaleway.com) géré par la société [Online.net](https://www.online.net), son adresse étant : Online SAS - BP 438 - 75366 Paris CEDEX.
 
 ## Propriété intellectuelle
 
 Ce site web est sous la license libre [Creative Commons](https://creativecommons.org) Toutes les images à l'exeption de l'image du footer sont libres de droits.
 
-L'image utilisé dans le footer de sont site est issue du site [PEXELS.com](https://pexels.com) sous une [license libre](https://www.pexels.com/photo-license/).
+L'image utilisé dans le footer est issue du site [PEXELS.com](https://pexels.com) sous une [license libre](https://www.pexels.com/photo-license/).
 
 ## Liens hypertextes
 
