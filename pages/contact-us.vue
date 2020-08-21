@@ -217,7 +217,7 @@ export default {
       if (Object.keys(this.errors).length === 0) {
         this.loading = true;
         //location.hash = "#ls";
-        this.$axios.post('http://localhost:3023/silent', {
+        this.$axios.post('https://contact-form.werobot.fr/werobot', {
           name: this.name,
           email: this.email,
           subject: this.subject,
