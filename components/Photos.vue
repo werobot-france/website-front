@@ -1,5 +1,5 @@
 <template>
-  <div class="transition-parent photos-list mt-4">
+  <div class="transition-parent photos-list">
     <transition name="main-transition">
       <div
         v-if="isLoading === true"

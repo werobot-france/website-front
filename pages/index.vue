@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="divider my-5"></div>
-        <h2 class="index-icon-title pt-2">
+        <h2 class="index-icon-title py-2 mb-5">
           <i class="fa fas fa-newspaper"></i>
           {{ $t('articles.last') }}
         </h2>
@@ -77,7 +77,7 @@
         </div>
         <div class="clear-fix"></div>
         <div class="divider mt-4 mb-5"></div>
-        <h2 class="index-icon-title py-2 mb-2">
+        <h2 class="index-icon-title py-2 mb-5">
           <i class="fa fas fa-newspaper"></i>
           {{ $t('photos.last') }}
         </h2>

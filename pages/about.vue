@@ -8,8 +8,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="container mx-auto content text">
+    <div class="container mx-auto content text negative-top-margin">
       <div>
         <div v-html="content"></div>
       </div>

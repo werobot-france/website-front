@@ -15,7 +15,9 @@
           <i class="fa fas fa-newspaper"></i>
           {{ $t('photos.all') }}
         </h2>
-        <photos :limit="null" />
+        <div class="mt-4">
+          <photos :limit="null" />
+        </div>
       </div>
     </div>
   </div>

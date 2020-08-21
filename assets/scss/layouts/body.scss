@@ -1,3 +1,4 @@
+
 .icon {
   content: none;
 }
@@ -19,6 +20,10 @@
   margin-top: 1em;
   line-height: 2.2em;
   font-size: 16px;
+
+  &.negative-top-margin {
+    margin-top: -1.2em;
+  }
 
   .blog-article {
     img {
