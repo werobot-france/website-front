@@ -59,7 +59,7 @@
                 to="/contact-us">{{ $t('contact-us.title') }}</nuxt-link>
               <nuxt-link
                 class="link"
-                to="/legals">{{ $t('legals') }}</nuxt-link>
+                to="/legals">{{ $t('legals.title') }}</nuxt-link>
             </div>
           </div>
         </div>

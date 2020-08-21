@@ -28,6 +28,17 @@ import Photos from '../components/Photos.vue'
 export default {
   components: {
     'photos': Photos
+  },
+  head () {
+    return {
+      title: this.$t('photos.title'),
+      meta: [
+        {name: 'description', content: this.$t('photos.description')},
+        {property: 'og:title', content: this.$t('photos.title')},
+        {property: 'og:description', content: this.$t('photos.description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+      ]
+    }
   }
 }
 </script>

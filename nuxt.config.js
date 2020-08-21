@@ -20,7 +20,11 @@ module.exports = {
     title: "We Robot",
     meta: [
       {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'}
+      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+      {name: 'msapplication-TileColor', content: '#3498db'},
+      {name: 'msapplication-TileImage', content: '/ms-icon-144x144.png'},
+      {name: 'theme-color', content: '#3498db'},
+      {name: 'robots', content: 'All'}
     ],
     link: [
       {rel: 'icon', type: 'image/png', href: '/favicon.png'},
@@ -42,7 +46,7 @@ module.exports = {
       {rel: 'manifest', href: '/manifest.json'}
     ],
     script: [
-      {src: '/analytics.js'}
+      {type: 'text/javascript', src: '/analytics.js', async: true, body: true, defer: true}
     ]
   },
 

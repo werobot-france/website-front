@@ -4,7 +4,7 @@
     <div class="cover">
       <div class="cover-container container mx-auto">
         <div class="cover-title">
-          <h1>{{ $t('legals') }}</h1>
+          <h1>{{ $t('legals.title') }}</h1>
         </div>
       </div>
     </div>
@@ -39,7 +39,13 @@ export default {
   name: 'Legals',
   head() {
     return {
-      title: this.$t('legals')
+      title: this.$t('legals.title'),
+      meta: [
+        {name: 'description', content: this.$t('legals.description')},
+        {property: 'og:title', content: this.$t('legals.title')},
+        {property: 'og:description', content: this.$t('legals.description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+      ]
     }
   },
   data() {

@@ -10,7 +10,7 @@
     </div>
     <div class="content">
       <div class="container mx-auto">
-        <p class="mb-3">{{ $t('contact-us.description') }}</p>
+        <p class="mb-3">{{ $t('contact-us.body') }}</p>
         <div id="ls">
           <transition-group name="main-transition">
             <div
@@ -171,7 +171,13 @@
 export default {
   head () {
     return {
-      title: this.$t('contact-us.title')
+      title: this.$t('contact-us.title'),
+      meta: [
+        {name: 'description', content: this.$t('contact-us.description')},
+        {property: 'og:title', content: this.$t('contact-us.title')},
+        {property: 'og:description', content: this.$t('contact-us.description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+      ]
     }
   },
   //components: { VueRecaptcha },

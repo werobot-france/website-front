@@ -21,7 +21,13 @@ export default {
   name: 'About',
   head () {
     return {
-      title: this.$t('about')
+      title: this.$t('about'),
+      meta: [
+        {name: 'description', content: this.$t('description')},
+        {property: 'og:title', content: this.$t('about')},
+        {property: 'og:description', content: this.$t('description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+      ]
     }
   },
   data () {

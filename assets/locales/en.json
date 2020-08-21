@@ -24,15 +24,19 @@
   },
   "home": "Home",
   "blog": {
-    "title": "Blog"
+    "title": "Blog",
+    "description": "The Blog is THE place to find all the news and story from the team."
   },
   "about": "About",
-  "legals": "Legals terms",
+  "legals": {
+    "title": "Legals term",
+    "description": "See here the legals term of the website werobot.fr"
+  },
   "donate": "Donate",
   "articles": {
+    "title": "Articles",
     "all": "All articles",
     "last": "Our last articles",
-    "title": "Articles",
     "empty": "No articles",
     "sort-by-dates": {
       "title": "Sort by dates",
@@ -41,16 +45,18 @@
     }
   },
   "photos": {
+    "title": "Photos",
+    "description": "Last pictures from the instragram account of the We Robot team.",
     "all": "All photos",
     "last": "Our last photos",
-    "title": "Photos",
     "empty": "No photos"
   },
   "loading": "Loading...",
   "more": "See more...",
   "contact-us": {
     "title": "Contact us",
-    "description": "If you have any questions or proposal, please contact us through the form below.",
+    "description": "There are many way to contact the We Robot team, one of which is to use the form provided on this page.",
+    "body": "If you have any questions or proposal, please contact us through the form below.",
     "form": {
       "field_required": "This field is required",
       "recaptcha_required": "The recaptcha is required",

@@ -24,15 +24,19 @@
   },
   "home": "Accueil",
   "blog": {
-    "title": "Blog"
+    "title": "Blog",
+    "description": "Le Blog de We Robot, c'est comme la vie, il y a des haut et des bas."
   },
   "about": "A propos",
-  "legals": "Mentions légales",
+  "legals": {
+    "title": "Mentions légales",
+    "description": "Retrouvez ici les mentions légales du site werobot.fr"
+  },
   "donate": "Donner",
   "articles": {
+    "title": "Articles",
     "all": "Tout les articles",
     "last": "Nos derniers articles",
-    "title": "Articles",
     "empty": "Aucun articles disponibles",
     "sort-by-dates": {
       "title": "Trier par dates",
@@ -41,16 +45,18 @@
     }
   },
   "photos": {
+    "title": "Photos",
+    "description": "Vous trouverez ici les dernières photos instagram de l'équipe.",
     "all": "Toute les photos",
     "last": "Nos dernières photos",
-    "title": "Photos",
     "empty": "Pas de photos disponibles"
   },
   "more": "Voir plus...",
   "loading": "Chargement...",
   "contact-us": {
     "title": "Contactez nous",
-    "description": "Pour toute question ou proposition, n'hésitez-pas à nous contacter à l'aide du formulaire ci-dessous.",
+    "description": "Il y a plusieurs façon de contacter l'équipe We Robot, l'une consiste à utiliser le formulaire founis sur cette page.",
+    "body": "Pour toute question ou proposition, n'hésitez-pas à nous contacter à l'aide du formulaire ci-dessous.",
     "form": {
       "field_required": "Ce champs est requis",
       "recaptcha_required": "Veuillez cocher le recaptcha",

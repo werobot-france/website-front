@@ -175,7 +175,20 @@ import Tooltip from "../components/Tooltip"
 export default {
   head () {
     return {
-      title: this.$t('home')
+      title: this.$t('home'),
+      meta: [
+        {name: 'description', content: this.$t('description')},
+        {name: 'keywords', content: this.$t('keywords').join(',')},
+
+        {property: 'og:title', content: this.$t('title')},
+        {property: 'og:description', content: this.$t('description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+
+        {property: 'twitter:card', content: 'summary'},
+        {property: 'twitter:title', content: this.$t('title')},
+        {property: 'twitter:description', content: this.$t('description')},
+        {property: 'twitter:image', content: 'https://s.werobot.fr/logo.png'}
+      ]
     }
   },
   components: {

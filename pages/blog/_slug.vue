@@ -39,8 +39,13 @@ export default {
         {name: 'description', content: this.$store.state.article.description},
         {property: 'og:title', content: this.$store.state.article.title},
         {property: 'og:description', content: this.$store.state.article.description},
-        {property: 'og:locale', content: this.$i18n.locale},
         {property: 'og:image', content: this.$store.state.article.image},
+        {property: 'og:type', content: 'article'},
+
+        {property: 'twitter:card', content: 'summary_large_image'},
+        {property: 'twitter:title', content: this.$store.state.article.title},
+        {property: 'twitter:description', content: this.$store.state.article.description},
+        {property: 'twitter:image', content: this.$store.state.article.image}
       ],
     }
   },

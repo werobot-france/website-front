@@ -72,7 +72,13 @@ import Articles from '~/components/Articles.vue'
 export default {
   head () {
     return {
-      title: this.$t('blog.title')
+      title: this.$t('blog.title'),
+      meta: [
+        {name: 'description', content: this.$t('blog.description')},
+        {property: 'og:title', content: this.$t('blog.title')},
+        {property: 'og:description', content: this.$t('blog.description')},
+        {property: 'og:image', content: 'https://s.werobot.fr/logo.png'},
+      ]
     }
   },
   components: {
