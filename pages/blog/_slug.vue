@@ -12,20 +12,34 @@
       </div>
     </div>
     <div
-      class="container mx-auto content content-container text">
-      <div class="page-details">
+      class="container mx-auto content content-container text transition-parent">
+      <transition name="main-transition">
         <div
-          class="page-details-item"
-          style="margin-bottom: 3em">
-          <i class="fa fas fa-clock"></i>
-          {{ $store.state.article.created_at }}
+          v-if="$store.state.isLoading && $store.state.article.title === ''"
+          class="transition-child loading-container">
+          <div class="loading-content">
+            <i class="fa fas fa-sync-alt fa-spin"></i>
+            {{ $t('loading') }}
+          </div>
         </div>
-      </div>
-      <div
-        v-lazy-container="{ selector: 'img' }"
-        class="blog-article"
-        v-html="$store.state.article.content">
-      </div>
+      </transition>
+      <transition name="main-transition">
+        <div v-if="!$store.state.isLoading && $store.state.article.title !== ''">
+          <div class="page-details">
+            <div
+              class="page-details-item"
+              style="margin-bottom: 3em">
+              <i class="fa fas fa-clock"></i>
+              {{ $store.state.article.created_at }}
+            </div>
+          </div>
+          <div
+            v-lazy-container="{ selector: 'img' }"
+            class="blog-article"
+            v-html="$store.state.article.content">
+          </div>
+        </div>
+      </transition>
     </div>
   </div>
 </template>

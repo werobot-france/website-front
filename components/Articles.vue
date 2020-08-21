@@ -24,41 +24,40 @@
       <div
         v-if="$store.state.articles.length > 0"
         class="articles">
-        <article
+        <router-link
           v-for="(article, index) in $store.state.articles"
           :key="article.id"
-          class="article">
-          <header class="article-thumb">
-            <router-link
-              :to="{name: 'blog-slug', params: {slug: article.slug}}"
-              class="link no-opacity">
-              <img
-                v-lazy="article.image"
-                alt="article image">
-            </router-link>
-          </header>
-          <span
-            v-if="index === 0"
-            class="article-status">NEW</span>
-          <div class="article-body">
-            <div class="article-title">
-              <router-link
-                :to="{name: 'blog-slug', params: {slug: article.slug}}"
-                class="link">{{ article.title }}</router-link>
+          :to="{name: 'blog-slug', params: {slug: article.slug}}">
+          <article
+            class="article">
+            <div
+              v-lazy:background-image="article.image"
+              class="article-thumb">
+              
             </div>
-            <div class="article-subtitle">
-              <router-link
-                :to="{name: 'blog-slug', params: {slug: article.slug}}"
-                class="link">
-                <from-now
-                  :value="article.created_at"/>
-              </router-link>
+            <span
+              v-if="index === 0"
+              class="article-status">NEW</span>
+            <div class="article-body">
+              <div class="article-title">
+                <router-link
+                  :to="{name: 'blog-slug', params: {slug: article.slug}}"
+                  class="link">{{ article.title }}</router-link>
+              </div>
+              <div class="article-subtitle">
+                <router-link
+                  :to="{name: 'blog-slug', params: {slug: article.slug}}"
+                  class="link">
+                  <from-now
+                    :value="article.created_at"/>
+                </router-link>
+              </div>
+              <p class="article-description">
+                {{ article.description }}...
+              </p>
             </div>
-            <p class="article-description">
-              {{ article.description }}...
-            </p>
-          </div>
-        </article>
+          </article>
+        </router-link>
       </div>
     </transition>
   </div>

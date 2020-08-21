@@ -75,30 +75,33 @@ export const actions = {
     context.commit('TOGGLE_LOADING');
   },
   async fetchArticle (context, params) {
+    context.commit('SET_ARTICLE', { title: '', image: '', created_at: '', content: '' });
     context.commit('TOGGLE_LOADING');
     const data = await function () {
       return new Promise((resolve) => {
-        params.context.app.$axios.get(`/post/${params.slug}`).then((res) => {
-          let data = res.data
-
-          // parse the date and replace with a formated date
-          Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
-          data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
-
-          resolve(data)
-        }).catch((err) => {
-          // console.log(err.response.status)
-          // console.log(err.response.data)
-          // console.log(params.slug)
-          // console.log('err');
-          resolve(err.response.status)
-        })
+        params.context.app.$axios.get(`/post/${params.slug}`)
+          .then(({ data }) => resolve(data))
+          .catch((err) => {
+            // console.log(err.response.status)
+            // console.log(err.response.data)
+            // console.log(params.slug)
+            // console.log('err');
+            resolve(err.response.status)
+          })
       })
     }();
     if (data === 404){
       params.context.error({statusCode: 404, message: 'Post not found'});
     } else {
+      // parse the date and replace with a formated date
+      Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
+      data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
+
+      // parse markdown
       data.data.post.content = marked(data.data.post.content);
+
+      // image ?
+      data.data.post.image = data.data.post.image.replace('50.', '75.')
 
       // replace src="" attribute in img tags by data-src="" attributes to do lazy loading
       const regex = /<img[a-zA-Z0-9-;:"= ]+(src="(\S+)")/gm;

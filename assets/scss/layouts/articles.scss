@@ -13,10 +13,17 @@
     //margin-right: 30px;
     margin-bottom: 1.2em;
     width: 375px;
+    height: 25em;
   }
-  .article a {
+
+  a {
     color: inherit;
     text-decoration: none;
+    opacity: initial;
+  }
+
+  a:hover {
+    opacity: initial;
   }
 
   .article:hover {
@@ -53,9 +60,11 @@
   }
 
   .article-thumb {
-    height: 210px;
+    height: 15em;
     overflow: hidden;
     background-color: white;
+    background-size: cover;
+    background-position: center;
     transition: height 0.3s;
   }
 
@@ -66,19 +75,19 @@
     transform: scale(1);
   }
 
-  .article:hover .article-thumb {
-    height: 95px;
-  }
-
   .article-body {
-    position: relative;
-    padding: 20px;
-    height: 190px;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+
+    padding: 1em;
+    height: 12em;
     transition: height 0.3s;
   }
 
   .article:hover .article-body {
-    height: 305px;
+    height: 18em;
   }
 
   .article-title {

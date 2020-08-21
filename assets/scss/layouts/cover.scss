@@ -18,8 +18,8 @@ $cover-height: 15em;
 .cover-back {
   height: $cover-height;
   background-image: url('https://s.werobot.fr/headerCover.jpeg');
-  background-position-x: 240px;
-  background-position-y: -360px;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: $max-width-responsive-level-1) {
