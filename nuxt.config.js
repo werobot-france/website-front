@@ -65,6 +65,7 @@ module.exports = {
     '~/plugins/i18n.js',
     '~/plugins/env.js',
     {src: '~/plugins/tooltip.js', ssr: false},
+    {src: '~/plugins/lazyLoad.js', ssr: false},
     {src: '~/plugins/localStorage.js', ssr: false},
     {src: '~/plugins/cookie.js', ssr: false},
     {src: '~/plugins/slideMenu.js', ssr: false}

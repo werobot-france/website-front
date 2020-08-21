@@ -25,10 +25,10 @@
         v-if="photos.length > 0"
         class="photos-list-photos">
         <div
+          v-lazy:background-image="photo.thumbnail"
           v-for="(photo, i) in photos"
           :key="photo.id"
           :title="photo.caption"
-          :style="'background-image: url(' + photo.thumbnail + ');'"
           class="photos-list-item"
           @click="index = i"
         >
