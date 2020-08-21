@@ -33,7 +33,7 @@
               :to="{name: 'blog-slug', params: {slug: article.slug}}"
               class="link no-opacity">
               <img
-                :src="article.image"
+                v-lazy="article.image"
                 alt="article image">
             </router-link>
           </header>
