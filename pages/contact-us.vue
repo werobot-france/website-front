@@ -124,7 +124,7 @@
                 class="text-red text-xs italic -mt-2">{{ errors.content }}</p>
             </div>
           </div>
-          <div class="flex flex-wrap -mx-3 mb-6">
+          <!-- <div class="flex flex-wrap -mx-3 mb-6">
             <div class="px-3">
               <no-ssr>
                 <vue-recaptcha
@@ -142,7 +142,7 @@
                 v-if="errors.reCaptcha !== undefined"
                 class="text-red text-xs italic mt-0">{{ errors.reCaptcha }}</p>
             </div>
-          </div>
+          </div> -->
           <div class="flex flex-wrap -mx-3">
             <div
               class="w-full flex px-3">
@@ -167,14 +167,14 @@
 </template>
 
 <script>
-import VueRecaptcha from 'vue-recaptcha';
+//import VueRecaptcha from 'vue-recaptcha';
 export default {
   head () {
     return {
       title: this.$t('contact-us.title')
     }
   },
-  components: { VueRecaptcha },
+  //components: { VueRecaptcha },
   data () {
     return {
       errors: {},
@@ -212,9 +212,9 @@ export default {
       if (this.content === '') {
         this.errors.content = this.$t('contact-us.form.field_required')
       }
-      if (this.reCaptchaCode === '') {
-        this.errors.reCaptcha = this.$t('contact-us.form.recaptcha_required')
-      }
+      // if (this.reCaptchaCode === '') {
+      //   this.errors.reCaptcha = this.$t('contact-us.form.recaptcha_required')
+      // }
       let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       if (this.email !== '' && !re.test(this.email.toLowerCase())){
         this.errors.email = this.$t('contact-us.form.invalid_email')
@@ -222,20 +222,19 @@ export default {
       if (Object.keys(this.errors).length === 0) {
         this.loading = true;
         location.hash = "#ls";
-        this.$axios.post('contact', {
+        this.$axios.post('https://contact-form.werobot.fr/werobot', {
           name: this.name,
           email: this.email,
           subject: this.subject,
-          content: this.content,
-          code: this.reCaptchaCode
+          message: this.content
         }).then(() => {
           this.loading = false;
           this.name = "";
           this.email = "";
           this.subject = "";
           this.content = "";
-          this.reCaptchaCode = "";
-          this.$refs.reCaptcha.reset();
+          // this.reCaptchaCode = "";
+          // this.$refs.reCaptcha.reset();
           setTimeout(() => {
             this.success = true
           }, 500)
@@ -245,9 +244,9 @@ export default {
         })
       }
     },
-    reCaptchaVerify: function (code) {
-      this.reCaptchaCode = code
-    }
+    // reCaptchaVerify: function (code) {
+    //   this.reCaptchaCode = code
+    // }
   }
 }
 </script>
