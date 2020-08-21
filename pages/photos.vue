@@ -11,7 +11,7 @@
     <div
       class="container mx-auto content">
       <div>
-        <h2 class="index-icon-title py-2 mb-2">
+        <h2 class="index-icon-title py-2">
           <i class="fa fas fa-newspaper"></i>
           {{ $t('photos.all') }}
         </h2>

@@ -29,8 +29,10 @@
             </ul>
           </div>
         </transition>
-        <div style="display: flex; justify-content: space-between; margin-bottom: 1em; align-items: center">
-          <h2 class="index-icon-title pt-2">
+        <div
+          style="display: flex; justify-content: space-between; align-items: center"
+          class="py-2">
+          <h2 class="index-icon-title">
             <i class="fa fas fa-newspaper"></i>
             {{ $t('articles.all') }}
           </h2>
@@ -56,7 +58,10 @@
           </div>
         </div>
 
-        <articles :locale="$i18n.locale" />
+        <div class="mt-4">
+          <articles :locale="$i18n.locale" />
+        </div>
+        
       </div>
     </div>
   </div>
