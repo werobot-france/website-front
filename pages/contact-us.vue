@@ -221,7 +221,7 @@ export default {
       }
       if (Object.keys(this.errors).length === 0) {
         this.loading = true;
-        location.hash = "#ls";
+        //location.hash = "#ls";
         this.$axios.post('https://contact-form.werobot.fr/werobot', {
           name: this.name,
           email: this.email,
