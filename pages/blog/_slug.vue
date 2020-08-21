@@ -53,6 +53,14 @@ export default {
       })
     })
   },
+  mounted () {
+    if (!this.$isServer) {
+      this.$Lazyload.lazyLoadHandler()
+      setTimeout(() => {
+        this.$Lazyload.lazyLoadHandler()
+      }, 400)
+    }
+  },
   async fetch (context) {
     if (process.server) {
       await context.store.dispatch('fetchArticle', {context: context, slug: context.params.slug})

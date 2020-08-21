@@ -69,6 +69,14 @@ export default {
   name: 'Articles',
   components: {
     'from-now': FromNow
+  },
+  mounted () {
+    if (!this.$isServer) {
+      this.$Lazyload.lazyLoadHandler()
+      setTimeout(() => {
+        this.$Lazyload.lazyLoadHandler()
+      }, 400)
+    }
   }
 }
 </script>

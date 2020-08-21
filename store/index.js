@@ -101,7 +101,7 @@ export const actions = {
       data.data.post.content = marked(data.data.post.content);
 
       // replace src="" attribute in img tags by data-src="" attributes to do lazy loading
-      const regex = /<img\s+(src="(\S+)")/gm;
+      const regex = /<img[a-zA-Z0-9-;:"= ]+(src="(\S+)")/gm;
       let m = "";
       let results = [];
       while ((m = regex.exec(data.data.post.content)) !== null) {
