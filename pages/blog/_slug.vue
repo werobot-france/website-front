@@ -22,8 +22,10 @@
         </div>
       </div>
       <div
+        v-lazy-container="{ selector: 'img' }"
         class="blog-article"
-        v-html="$store.state.article.content"></div>
+        v-html="$store.state.article.content">
+      </div>
     </div>
   </div>
 </template>

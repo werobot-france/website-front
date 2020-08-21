@@ -80,25 +80,11 @@ export const actions = {
       return new Promise((resolve) => {
         params.context.app.$axios.get(`/post/${params.slug}`).then((res) => {
           let data = res.data
+
+          // parse the date and replace with a formated date
           Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
-
-          const regex = /src=\"[A-z:\/.\-0-9]+\"/gm;
-          const str = data.data.post.content;
-          let m;
-
-          while ((m = regex.exec(str)) !== null) {
-            // This is necessary to avoid infinite loops with zero-width matches
-            if (m.index === regex.lastIndex) {
-              regex.lastIndex++;
-            }
-
-            // The result can be accessed through the `m`-variable.
-            m.forEach((match, groupIndex) => {
-              console.log(`Found match, group ${groupIndex}: ${match}`);
-            });
-          }
-
           data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
+
           resolve(data)
         }).catch((err) => {
           // console.log(err.response.status)
@@ -113,6 +99,22 @@ export const actions = {
       params.context.error({statusCode: 404, message: 'Post not found'});
     } else {
       data.data.post.content = marked(data.data.post.content);
+
+      // replace src="" attribute in img tags by data-src="" attributes to do lazy loading
+      const regex = /<img\s+(src="(\S+)")/gm;
+      let m = "";
+      let results = [];
+      while ((m = regex.exec(data.data.post.content)) !== null) {
+        if (m.index === regex.lastIndex) { regex.lastIndex++; }
+        results.push(m)
+      }
+      results.forEach((r) => {
+        let a = r[1].replace('src="', 'data-src="')
+        data.data.post.content = data.data.post.content.replace(r[1], a)
+      })
+      // Limitation due to the vue-lazyload lib: image that are not fully in the browser page frame are not loaded 
+      // this can be a issue
+
       context.commit('SET_ARTICLE', data.data.post);
       context.commit('TOGGLE_LOADING');
     }
