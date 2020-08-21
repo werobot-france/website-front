@@ -28,7 +28,7 @@
             v-for="(photo, i) in photos"
             :key="photo.id"
             :title="photo.caption"
-            :style="'background-image: url(' + photo.images.standard + ');'"
+            :style="'background-image: url(' + photo.thumbnail + ');'"
             class="photos-list-item"
             @click="index = i"
           >
@@ -76,7 +76,7 @@ export default {
     this.$axios.get(`/photos${limit}`).then((res) => {
       this.photos = res.data.data.photos;
       this.photosSlideShow = this.photos.map((photo) => {
-        return photo.images.standard
+        return photo.original
       });
       this.isLoading = false;
     })
