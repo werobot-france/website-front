@@ -11,13 +11,11 @@
     <div class="content">
       <div class="container mx-auto">
         <p class="mb-3">{{ $t('contact-us.body') }}</p>
-        <div id="ls">
-          <transition-group name="main-transition">
+        <transition name="main-transition">
+          <div v-if="success">
             <div
-              v-if="success === true"
-              :key="3"
-              class="bg-teal-lightest border-t-4 border-teal rounded-b text-teal-darkest px-4 py-3 shadow-md mb-5"
-              role="alert">
+              role="alert"
+              class="w-100 bg-teal-lightest border-t-4 border-teal rounded-b text-teal-darkest px-4 py-3 shadow-md mb-4">
               <div class="flex justify-between">
                 <div class="flex">
                   <div class="px-5">
@@ -36,17 +34,8 @@
                 </div>
               </div>
             </div>
-            <div
-              v-if="loading === true"
-              :key="2"
-              class="loading-container">
-              <div class="loading-content">
-                <i class="fa fas fa-sync-alt fa-spin"></i>
-                {{ $t('contact-us.form.loading') }}
-              </div>
-            </div>
-          </transition-group>
-        </div>
+          </div>
+        </transition>
         <form
           class="w-full">
           <div class="flex flex-wrap -mx-3">
@@ -143,20 +132,20 @@
                 class="text-red text-xs italic mt-0">{{ errors.reCaptcha }}</p>
             </div>
           </div> -->
-          <div class="flex flex-wrap -mx-3">
-            <div
-              class="w-full flex px-3">
-              <div>
-                <div class="button button-primary">
-                  <div class="button-icon">
-                    <i class="fa fas fa-check-circle"></i>
-                  </div>
-                  <div
-                    class="button-text"
-                    @click="submit">
-                    {{ $t('contact-us.form.submit') }}
-                  </div>
-                </div>
+          <div class="flex flex-wrap justify-end">
+            <div class="button button-primary">
+              <div class="button-icon">
+                <i
+                  v-if="loading"
+                  class="fa fas fa-sync fa-spin"></i>
+                <i
+                  v-else
+                  class="fa fas fa-check-circle"></i>
+              </div>
+              <div
+                class="button-text"
+                @click="submit">
+                {{ $t('contact-us.form.submit') }}
               </div>
             </div>
           </div>
@@ -228,7 +217,7 @@ export default {
       if (Object.keys(this.errors).length === 0) {
         this.loading = true;
         //location.hash = "#ls";
-        this.$axios.post('https://contact-form.werobot.fr/werobot', {
+        this.$axios.post('http://localhost:3023/silent', {
           name: this.name,
           email: this.email,
           subject: this.subject,
@@ -241,9 +230,7 @@ export default {
           this.content = "";
           // this.reCaptchaCode = "";
           // this.$refs.reCaptcha.reset();
-          setTimeout(() => {
-            this.success = true
-          }, 500)
+          this.success = true
         }).catch((err) => {
           this.loading = false;
           console.log(err)
