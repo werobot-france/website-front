@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="container mx-auto content text negative-top-margin">
+    <div class="container mx-auto content text">
       <div>
         <div
           v-show="$i18n.locale === 'en'"
