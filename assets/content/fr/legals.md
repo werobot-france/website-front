@@ -2,14 +2,12 @@
 
 Le propriétaire et l'éditeur du site werobot.fr est l'association locale à but non lucrative qui édite et détient ce site web.
 
-We Robot 
+**We Robot**
 
-[werobot.fr@gmail.com](mailto:werobot.fr@gmail.com)
+E-Mail: [werobot.fr@gmail.com](mailto:werobot.fr@gmail.com)
 
 12 Sentier du Clos Paumel
-
 27940 GAILLON
-
 FRANCE
 
 ## Responsable publication
@@ -17,7 +15,7 @@ FRANCE
 Pour toute demande touchant au contenu publié sur ce site veuillez vous adressez au responsable de la publication :
 Le responsable de la publication du site werobot.fr est :
 
-**Frank GITON** [frank.giton@gmail.com](mailto:frank.giton@gmail.com)
+**Frank GITON**, E-Mail: [franck.giton@gmail.com](mailto:franck.giton@gmail.com)
 
 ## Hébergeur 
 
