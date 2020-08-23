@@ -35,9 +35,9 @@ This season, we plan to participate in the [trophées de robotique](http://troph
 <div class="team-mosaic">
   <div class="team-item">
     <div class="team-item-image">
-      <img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar">
+      <img src="https://static.werobot.fr/profiles/franck.jpg" alt="avatar">
     </div>
-    <p class="team-item-title">Frank</p>
+    <p class="team-item-title">Franck</p>
     <p class="team-item-description">President, Coach</p>
   </div>
   <div class="team-item">

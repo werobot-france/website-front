@@ -34,8 +34,8 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 <div class="team-mosaic">
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/frank.jpg" alt="avatar"></div>
-    <p class="team-item-title">Frank</p>
+    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/franck.jpg" alt="avatar"></div>
+    <p class="team-item-title">Franck</p>
     <p class="team-item-description">Président de l'association, Coach</p>
   </div>
   <div class="team-item">
