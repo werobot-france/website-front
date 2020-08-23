@@ -67,7 +67,7 @@
             class="footer-locale ">
             <a
               class="button button-primary"
-              @click="$refs.footerContainer.swap()">
+              @click="$store.state.swapLocale()">
               <div class="button-icon">
                 <i class="fa fas fa-flag"></i>
               </div>

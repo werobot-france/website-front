@@ -11,11 +11,11 @@
           id="main-page-wrap"
           :class="{'disabled': $store.state.drawerEnabled}"
           class="main-page-wrap">
-          <header-container ref="header" />
+          <header-container />
           <nuxt
             :class="{'not-complete' : $store.state.headerComplete === false}"
             class="content-container" />
-          <footer-container ref="footerContainer" />
+          <footer-container />
         </main>
       </div>
     </transition>
@@ -46,7 +46,10 @@ export default {
       }
     }
   },
-  mounted() {
+  created () {
+    this.$store.commit('SET_SWAP_LOCALE', this.swapLocale)
+  },
+  mounted () {
     let locale = navigator.language.substring(0, 2);
     if (this.$cookie.get('locale') === undefined || this.$cookie.get('locale') === null) {
       this.$cookie.set('locale', locale);
@@ -59,6 +62,38 @@ export default {
     setTimeout(() => {
       this.$store.commit('SHOW_BODY')
     }, 300)
+  },
+  methods: {
+    swapLocale: async function () {
+      this.$store.commit('HIDE_BODY');
+      setTimeout(() => {
+        let locale = this.$cookie.get('locale');
+        if (locale === undefined) {
+          this.$cookie.set('locale', 'en')
+        }
+        let locales = ['en', 'fr'];
+        locale = locales.filter((l) => l !== locale)[0];
+        this.$i18n.locale = locale;
+        this.$cookie.set('locale', locale);
+        if (typeof this.$store.state.onSwappedLocale === 'function') {
+          let swappedLocaleResponse = this.$store.state.onSwappedLocale(locale)
+          this.$store.commit('SET_ON_SWAPPED_LOCALE', null)
+          if (typeof swappedLocaleResponse.then !== 'function' && (swappedLocaleResponse === null || swappedLocaleResponse === window.location)) {
+            window.location.reload(false);
+          } else {
+            swappedLocaleResponse.then(url => {
+              if (url === null || url === window.location) {
+                window.location.reload(false);
+              } else {
+                window.location = url
+              }
+            })
+          }
+        } else {
+          window.location.reload(false);
+        }
+      }, 500)
+    }
   }
 }
 </script>

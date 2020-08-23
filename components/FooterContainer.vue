@@ -100,7 +100,7 @@
             class="footer-locale">
             <a
               class="button button-primary"
-              @click="swap">
+              @click="$store.state.swapLocale()">
               <div class="button-icon">
                 <i class="fa fas fa-flag"></i>
               </div>
@@ -120,38 +120,9 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
-  name: 'FooterContainer',
-  methods: {
-    swap: async function () {
-      this.$store.commit('HIDE_BODY');
-      let locale = this.$cookie.get('locale');
-      if (locale === undefined) {
-        this.$cookie.set('locale', 'en')
-      }
-      let locales = ['en', 'fr'];
-      locale = locales.filter((l) => l !== locale)[0];
-      this.$i18n.locale = locale;
-      this.$cookie.set('locale', locale);
-      if (typeof this.$store.state.onSwappedLocale === 'function') {
-        let swappedLocaleResponse = this.$store.state.onSwappedLocale(locale)
-        this.$store.commit('SET_ON_SWAPPED_LOCALE', null)
-        if (typeof swappedLocaleResponse.then !== 'function' && (swappedLocaleResponse === null || swappedLocaleResponse === window.location)) {
-          window.location.reload(false);
-        } else {
-          swappedLocaleResponse.then(url => {
-            if (url === null || url === window.location) {
-              window.location.reload(false);
-            } else {
-              window.location = url
-            }
-          })
-        }
-      } else {
-        window.location.reload(false);
-      }
-    }
-  }
+  name: 'FooterContainer'
 }
 </script>
