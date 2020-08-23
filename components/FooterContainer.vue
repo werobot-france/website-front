@@ -87,11 +87,18 @@
                 <img src="~/assets/img/twitter.svg">
               </a>
             </div>
-            <div class="footer-socials-item">
+            <!-- <div class="footer-socials-item">
               <a
                 :href="$env.socials.youtube"
                 class="link">
                 <img src="~/assets/img/youtube.svg">
+              </a>
+            </div> -->
+            <div class="footer-socials-item">
+              <a
+                :href="$env.socials.github"
+                class="link">
+                <img src="~/assets/img/github.svg">
               </a>
             </div>
           </div>

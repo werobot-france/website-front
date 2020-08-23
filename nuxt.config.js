@@ -7,9 +7,10 @@ module.exports = {
   env: {
     reCaptchaKey: "6LdSznYUAAAAAHCOHlNFZCrW4puTUBeiSLcbtRbF",
     twitter: "https://twitter.com/werobot_FR",
-    facebook: "https://www.facebook.com/WeRobot/",
-    instagram: "https://www.instagram.com/werobot/",
-    youtube: "http://example.com/youtube",
+    facebook: "https://facebook.com/WeRobot/",
+    instagram: "https://instagram.com/werobot/",
+    github: "https://github.com/werobot-france",
+    //youtube: "http://example.com/youtube",
     donate: "https://www.helloasso.com/associations/we-robot/formulaires/1"
   },
 
