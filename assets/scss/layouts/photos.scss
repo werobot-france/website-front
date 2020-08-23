@@ -10,18 +10,19 @@
   .photos-list-photos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 26px;
+    grid-column-gap: 1.2em;
+    grid-row-gap: 1.2em;
+    justify-content: center;
   }
 
   .photos-list-item {
     border-radius: 5px;
     height: 17.5em;
-    width: 17.5em;
+    min-width: 14em;
     background-size: cover;
     background-position: center;
     opacity: 1;
     display: block;
-    margin-bottom: 1.2em;
     transition: opacity 0.2s;
   }
 
@@ -37,14 +38,15 @@
 }
 
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (max-width: $responsive-medium) {
   .photos-list {
     .photos-list-photos {
-      grid-template-columns: 1fr;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
     }
-
     .photos-list-item {
-      width: 100%;
+      min-width: 17.5em;
     }
   }
 }

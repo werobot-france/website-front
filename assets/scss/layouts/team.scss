@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (max-width: $responsive-medium) {
   .team-mosaic {
     grid-template-columns: 50% 50%;
     grid-column-gap: 0;

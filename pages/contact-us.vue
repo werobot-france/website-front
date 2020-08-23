@@ -1,10 +1,12 @@
 <template>
   <div>
-    <div class="cover-back">&nbsp;</div>
     <div class="cover">
-      <div class="cover-container container mx-auto">
-        <div class="cover-title">
-          <h1>{{ $t('contact-us.title') }}</h1>
+      <div class="cover-back"></div>
+      <div class="cover-container">
+        <div class="container mx-auto">
+          <div class="cover-title">
+            <h1>{{ $t('contact-us.title') }}</h1>
+          </div>
         </div>
       </div>
     </div>

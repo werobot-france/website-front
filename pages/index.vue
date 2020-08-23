@@ -1,10 +1,12 @@
 <template>
   <div>
-    <div class="cover-back">&nbsp;</div>
     <div class="cover">
-      <div class="cover-container container mx-auto">
-        <div class="cover-title">
-          <h1>{{ $t('landing.title') }}</h1>
+      <div class="cover-back"></div>
+      <div class="cover-container">
+        <div class="container mx-auto">
+          <div class="cover-title">
+            <h1>{{ $t('landing.title') }}</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -68,7 +70,7 @@
         <div class="index-more-section">
           <nuxt-link
             to="/blog"
-            class="link button button-primary">
+            class="mt-3 link button button-primary">
             <div class="button-icon">
               <i class="fa fas fa-plus-square"></i>
             </div>
@@ -85,7 +87,7 @@
         <div class="index-more-section">
           <nuxt-link
             to="/photos"
-            class="link button button-primary">
+            class="mt-3 link button button-primary">
             <div class="button-icon">
               <i class="fa fas fa-plus-square"></i>
             </div>

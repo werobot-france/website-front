@@ -1,31 +1,63 @@
 $cover-height: 15em;
 
 .cover {
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-  height: $cover-height;
-  background-color: rgba(41, 128, 185, 0.8);
-  margin-top: -$cover-height;
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  color: white;
+  position: relative;
+
+  .cover-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://s.werobot.fr/headerCover.jpeg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  .cover-container {
+    width: 100%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    min-height: $cover-height;
+    background-color: rgba(41, 128, 185, 0.8);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 5em 0;
+  }
 
   .cover-title {
-    font-size: 1.6em;
+    line-height: 3em;
+    font-size: 1.5em;
+  }
+
+  &.large-cover {
+    .cover-container {
+      padding: 6em 0;
+    }
   }
 }
 
-.cover-back {
-  height: $cover-height;
-  background-image: url('https://s.werobot.fr/headerCover.jpeg');
-  background-size: cover;
-  background-position: center;
+@media (max-width: $responsive-medium) {
+  .cover {
+    .cover-title {
+      font-size: 1.3em;
+    }
+
+    &.large-cover {
+      .cover-container {
+        padding: 5em 0;
+      }
+    }
+  }
 }
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (min-width: $responsive-large) {
   .cover {
-      .cover-title {
-        font-size: 1.3em;
+    &.large-cover {
+      .cover-container {
+        padding: 8em 0;
       }
+    }
   }
 }

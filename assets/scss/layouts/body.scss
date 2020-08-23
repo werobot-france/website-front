@@ -49,13 +49,13 @@
     border-radius: 1px;
     justify-content: flex-end;
     //padding-bottom: 0.5em;
-    margin-bottom: -3em;
+    margin-bottom: .5em;
     .page-details-item {
       i {
         margin-right: 10px;
       }
-      margin-right: 20px;
-      opacity: 0.8;
+      margin-right: 1em;
+      opacity: 0.7;
       display: flex;
       align-items: center;
     }
@@ -185,7 +185,7 @@
 }
 
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (max-width: $responsive-medium) {
   .image-mosaic {
     display: flex;
     justify-content: space-around;

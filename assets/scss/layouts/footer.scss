@@ -95,7 +95,7 @@ $footer-cover-height: 10em;
   }
 }
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (max-width: $responsive-medium) {
   .footer {
     .footer-container {
       padding-top: 1em;
@@ -118,7 +118,7 @@ $footer-cover-height: 10em;
         margin-bottom: 1em;
       }
       .footer-footer {
-        margin-top: 3em;
+        margin-top: 2em;
         padding-bottom: 2em;
       }
       .footer-socials {

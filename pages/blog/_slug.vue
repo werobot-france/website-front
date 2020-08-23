@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div
-      :style="'background-image: url(' + $store.state.article.image + '); background-size: cover;'"
-      class="cover-back"
-    >&nbsp;</div>
-    <div class="cover">
-      <div class="cover-container container mx-auto">
-        <div class="cover-title">
-          <h1>{{ $store.state.article.title }}</h1>
+    <div class="cover large-cover">
+      <div
+        :style="'background-image: url(' + $store.state.article.image + '); background-size: cover;'"
+        class="cover-back"
+      ></div>
+      <div class="cover-container">
+        <div class="container mx-auto">
+          <div class="cover-title">
+            <h1>{{ $store.state.article.title }}</h1>
+          </div>
         </div>
       </div>
     </div>
@@ -26,9 +28,7 @@
       <transition name="main-transition">
         <div v-if="!$store.state.isLoading && $store.state.article.title !== ''">
           <div class="page-details">
-            <div
-              class="page-details-item"
-              style="margin-bottom: 3em">
+            <div class="page-details-item">
               <i class="fa fas fa-clock"></i>
               {{ $store.state.article.created_at }}
             </div>

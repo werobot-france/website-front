@@ -12,30 +12,6 @@
           :class="{'disabled': $store.state.drawerEnabled}"
           class="main-page-wrap">
           <header-container ref="header" />
-          <div
-            class="header-locale-container container mx-auto "
-            style="height:0;">
-            <div
-              id="h"
-              class="footer-locale ">
-              <a
-                class="button button-primary"
-                @click="$refs.footerContainer.swap()">
-                <div class="button-icon">
-                  <i class="fa fas fa-flag"></i>
-                </div>
-                <div
-                  class="link button-text">
-                  <span v-if="$i18n.locale === 'fr'">
-                    English
-                  </span>
-                  <span v-else>
-                    Français
-                  </span>
-                </div>
-              </a>
-            </div>
-          </div>
           <nuxt
             :class="{'not-complete' : $store.state.headerComplete === false}"
             class="content-container" />

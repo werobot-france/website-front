@@ -1,5 +1,6 @@
-$max-width-responsive-level-1: 764px;
-$max-width-responsive-level-2: 395px;
+$responsive-small: 400px;
+$responsive-medium: 1050px;
+$responsive-large: 1500px;
 
 @import "~tailwindcss/dist/tailwind.min.css";
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Roboto+Slab');

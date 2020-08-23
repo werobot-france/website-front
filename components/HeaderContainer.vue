@@ -61,6 +61,28 @@
               class="link link-primary">{{ $t('donate') }}</a>
           </div>
         </div>
+        <div class="header-locale-container">
+          <div
+            id="h"
+            class="footer-locale ">
+            <a
+              class="button button-primary"
+              @click="$refs.footerContainer.swap()">
+              <div class="button-icon">
+                <i class="fa fas fa-flag"></i>
+              </div>
+              <div
+                class="link button-text">
+                <span v-if="$i18n.locale === 'fr'">
+                  English
+                </span>
+                <span v-else>
+                  Français
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </transition>

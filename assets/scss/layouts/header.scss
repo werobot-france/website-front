@@ -6,6 +6,7 @@ $logo-responsive-height: 4em;
 }
 .header {
   .header-container {
+    position: relative;
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
@@ -69,12 +70,16 @@ $logo-responsive-height: 4em;
     padding-bottom: 0;
   }
 
+  .header-locale-container {
+    display: none;
+  }
+
   .header-sub-title {
     display: none;
   }
 }
 
-@media (max-width: $max-width-responsive-level-1) {
+@media (max-width: $responsive-medium) {
   .header {
     display: flex;
     justify-content: center;
@@ -129,4 +134,9 @@ $logo-responsive-height: 4em;
 .header-locale-container {
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  z-index: 888;
 }
