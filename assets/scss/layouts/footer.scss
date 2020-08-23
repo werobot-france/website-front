@@ -58,7 +58,7 @@ $footer-cover-height: 10em;
       }
     }
     .footer-footer {
-      margin-top: 6em;
+      margin-top: 3em;
       padding-bottom: 2em;
     }
     .footer-socials {
@@ -67,19 +67,18 @@ $footer-cover-height: 10em;
       justify-content: flex-start;
 
       .footer-socials-item {
+        margin-right: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8 !important;
         img {
-          margin-right: 1em;
           width: $social-icon-height;
           height: $social-icon-height;
         }
-      }
-
-      a {
-        opacity: 0.8 !important;
-      }
-
-      a:hover {
-        opacity: 1 !important;
+        &:hover {
+          opacity: 1 !important;
+        }
       }
     }
     .footer-links {
