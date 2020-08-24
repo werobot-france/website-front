@@ -6,7 +6,13 @@ export const state = () => ({
   showBody: false,
   isLoading: false,
   articles: [],
-  article: {},
+  article: { title: '', image: '', created_at: '', content: '' },
+  pagination: {
+    current_page: 1,
+    total_page: 0,
+    previous_page: null,
+    next_page: null
+  },
   locale: 'fr',
   headerComplete: true,
   onSwappedLocale: null,
@@ -26,14 +32,21 @@ export const mutations = {
   HIDE_BODY: function (state) {
     state.showBody = false
   },
+  SET_PAGINATION: function (state, pagination) {
+    state.pagination = pagination
+  },
   SET_ARTICLES: function (state, articles) {
     state.articles = articles
   },
   SET_ARTICLE: function (state, article) {
     state.article = article
   },
-  TOGGLE_LOADING: function (state) {
-    state.isLoading = !state.isLoading
+  TOGGLE_LOADING: function (state, payload) {
+    if (payload != null) {
+      state.isLoading = payload
+    } else {
+      state.isLoading = !state.isLoading
+    }
   },
   SET_ON_SWAPPED_LOCALE: function (state, payload) {
     state.onSwappedLocale = payload
@@ -45,12 +58,27 @@ export const mutations = {
 
 export const actions = {
   async fetchArticles (context, params) {
-    context.commit('TOGGLE_LOADING');
+    context.commit('TOGGLE_LOADING', true);
+    context.commit('SET_ARTICLES', []);
+    context.commit('SET_PAGINATION', {
+      current_page: 1,
+      total_page: 0,
+      previous_page: null,
+      next_page: null
+    });
     const data = await function () {
       return new Promise((resolve, reject) => {
         let query = ''
-        if (params.limit !== -1) {
-          query = '&limit=' + params.limit
+        if (params.per_page != null) {
+          query += '&per_page=' + params.per_page
+        } else {
+          query += '&per_page=12'
+        }
+        if (params.page != null) {
+          query += '&page=' + params.page
+        }
+        if (params.year != null) {
+          query += '&year=' + params.year
         }
         let locale = ''
         if (params.app.i18n !== undefined) {
@@ -75,12 +103,21 @@ export const actions = {
       console.log('Err fetching articles');
       context.commit('SET_ARTICLES', []);
     }
+
+    // mark the first post as NEW only if there were created less than 3 weeks ago
+    if (data.data.posts.length > 0) {
+      let first = data.data.posts[0]
+      let diff = Moment().diff(Moment(first.created_at)) // duration in milliseconds
+      data.data.posts[0].isRecent = Moment.duration(diff).asWeeks() < 3
+    }
+    
     context.commit('SET_ARTICLES', data.data.posts);
+    context.commit('SET_PAGINATION', data.data.pagination);
     context.commit('TOGGLE_LOADING');
   },
   async fetchArticle (context, params) {
     context.commit('SET_ARTICLE', { title: '', image: '', created_at: '', content: '' });
-    context.commit('TOGGLE_LOADING');
+    context.commit('TOGGLE_LOADING', true);
     const data = await function () {
       return new Promise((resolve) => {
         params.context.app.$axios.get(`/post/${params.slug}`)

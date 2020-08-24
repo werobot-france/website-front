@@ -40,7 +40,7 @@
           <div class="header-nav-item">
             <nuxt-link
               :class="{'active': $route.name === 'blog'}"
-              to="/blog"
+              to="/blog?page=1"
               class="link">{{ $t('blog.title') }}</nuxt-link>
           </div>
           <div class="header-nav-item">

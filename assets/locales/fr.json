@@ -27,6 +27,8 @@
     "title": "Blog",
     "description": "Le Blog de We Robot, c'est comme la vie, il y a des haut et des bas."
   },
+  "previous": "Précédent",
+  "next": "Suivant",
   "about": "A propos",
   "legals": {
     "title": "Mentions légales",
@@ -40,6 +42,11 @@
     "empty": "Aucun articles disponibles",
     "sort-by-dates": {
       "title": "Trier par dates",
+      "posts": "articles(s)",
+      "close": "Fermer"
+    },
+    "sort-by-years": {
+      "title": "Trier par années",
       "posts": "articles(s)",
       "close": "Fermer"
     }

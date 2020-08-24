@@ -27,6 +27,8 @@
     "title": "Blog",
     "description": "The Blog is THE place to find all the news and story from the team."
   },
+  "previous": "Previous",
+  "next": "Next",
   "about": "About",
   "legals": {
     "title": "Legals term",
@@ -41,6 +43,11 @@
     "sort-by-dates": {
       "title": "Sort by dates",
       "posts": "post(s)",
+      "close": "Close"
+    },
+    "sort-by-years": {
+      "title": "Sort by years",
+      "posts": "articles(s)",
       "close": "Close"
     }
   },

@@ -3,7 +3,8 @@
     <transition name="main-transition">
       <div
         v-if="$store.state.isLoading === true"
-        class="loading-container transition-child">
+        class="loading-container transition-child"
+        style="height: 100%;">
         <div class="loading-content">
           <i class="fa fas fa-sync-alt fa-spin"></i>
           {{ $t('loading') }}
@@ -13,7 +14,8 @@
     <transition name="main-transition">
       <div
         v-if="$store.state.isLoading === false && $store.state.articles.length === 0"
-        class="section-error-container transition-child">
+        class="section-error-container transition-child"
+        style="height: 100%;">
         <div class="section-error-content">
           <i class="fa fas fa-times-circle"></i>
           {{ $t('articles.empty') }}
@@ -35,7 +37,7 @@
               class="article-thumb">
             </div>
             <span
-              v-if="index === 0"
+              v-if="index === 0 && article.isRecent"
               class="article-status">NEW</span>
             <div class="article-body">
               <div class="article-title">

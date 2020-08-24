@@ -200,9 +200,9 @@ export default {
   },
   async fetch ({ isServer, store, app }) {
     if (process.server) {
-      await store.dispatch('fetchArticles', {app: app, limit: 3})
+      await store.dispatch('fetchArticles', {app: app, per_page: 3, page: 1})
     } else {
-      store.dispatch('fetchArticles', {app: app, limit: 3})
+      store.dispatch('fetchArticles', {app: app, per_page: 3, page: 1})
     }
   }
 }

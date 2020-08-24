@@ -29,3 +29,17 @@
   cursor: pointer;
   transition: opacity 0.2s;
 }
+
+.button.disabled {
+  opacity: 0.5;
+  filter: grayscale(100);
+  transform: none !important;
+}
+
+@media (max-width: $responsive-small) {
+  .button.mobile-icon {
+    .button-text {
+      display: none;
+    }
+  }
+}
