@@ -34,13 +34,11 @@ export default {
   },
   data () {
     return {
-      content: require('../assets/content/' + this.$i18n.locale + '/about.md')
+      content: ''
     }
   },
   mounted () {
-    setTimeout(() => {
-      this.content = require('../assets/content/' + this.$i18n.locale + '/about.md')
-    }, 500)
+    this.content = require('../assets/content/' + this.$i18n.locale + '/about.md')
   }
 }
 </script>
