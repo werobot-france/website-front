@@ -110,9 +110,6 @@
     font-size: 19px;
     color: $primary-color;
   }
-  .article:hover .article-subtitle {
-    animation: subtitleBlur 0.3s;
-  }
 
   .article-description {
     margin: 0;
@@ -137,28 +134,28 @@
     transform: translateY(0);
   }
 
-  @keyframes titleBlur {
-    0% {
-      opacity: 0.6;
-      text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
-    }
+  // @keyframes titleBlur {
+  //   0% {
+  //     opacity: 0.6;
+  //     text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+  //   }
 
-    100% {
-      opacity: 1;
-      text-shadow: 0px 5px 5px transparent;
-    }
-  }
-  @keyframes subtitleBlur {
-    0% {
-      opacity: 0.6;
-      text-shadow: 0px 5px 5px rgba(239, 90, 49, 0.6);
-    }
+  //   100% {
+  //     opacity: 1;
+  //     text-shadow: 0px 5px 5px transparent;
+  //   }
+  // }
+  // @keyframes subtitleBlur {
+  //   0% {
+  //     opacity: 0.6;
+  //     text-shadow: 0px 5px 5px rgba(239, 90, 49, 0.6);
+  //   }
 
-    100% {
-      opacity: 1;
-      text-shadow: 0px 5px 5px rgba(239, 90, 49, 0);
-    }
-  }
+  //   100% {
+  //     opacity: 1;
+  //     text-shadow: 0px 5px 5px rgba(239, 90, 49, 0);
+  //   }
+  // }
 }
 
 
