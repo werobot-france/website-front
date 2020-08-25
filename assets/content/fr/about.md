@@ -30,6 +30,8 @@ L'association évolue. Non seulement elle accueille de nouveaux jeunes pour part
 
 Les concours actuellement prévus cette année sont une nouvelle fois les [trophées de robotique](http://tropheesderobotique.fr) et [Astro-Pi](https://www.astro-pi.org).
 
+### Saison 2019-2020
+
 ## Nos membres
 
 <div class="team-mosaic">
