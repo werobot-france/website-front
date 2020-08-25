@@ -32,6 +32,8 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 ### Saison 2019-2020
 
+Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la robotique aux enfants du [Centre Social Condorcet](https://www.espacecondorcet.org/) a continué jusqu'au confinement. Nous avons par ailleurs pu organiser deux ateliers de découverte des [micro-bits](https://archive.microbit.org/fr/). En ce qui concerne les concours de robotique, nos deux jeunes ont bossé d'arrache-pieds mais les [trophées](http://tropheesderobotique.fr) on tout d'abord été programmés à une date impossible (trop proche du bac) nous avons réussi à négocier notre inscription à la [coupe de France](https://www.coupederobotique.fr/) mais ces événements ont finis par être annulés/reportés.
+
 ## Nos membres
 
 <div class="team-mosaic">
@@ -50,11 +52,11 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secrétaire</p>
   </div>
-  <div class="team-item">
+  <!-- <div class="team-item">
     <div class="team-item-image"><img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar"></div>
     <p class="team-item-title">Antoine</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
-  </div>
+  </div> -->
   <div class="team-item">
     <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
     <p class="team-item-title">Mathis</p>
@@ -70,11 +72,11 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
     <p class="team-item-title">Mohamed</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
-  <div class="team-item">
+  <!--<div class="team-item">
     <div class="team-item-image"><img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar"></div>
     <p class="team-item-title">Quentin</p>
     <p class="team-item-description">Communication</p>
-  </div>
+  </div>-->
 </div>
 
 <div id="partners"></div>
@@ -90,7 +92,7 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
       Depuis octobre 2017 le GIGA est à nos côtés. Nous leur avons présenté l'association en assemblée générale, nous avons bénéficié d'un fort soutien financier de leur part pour nos déplacements ainsi que l'achat de matériel.
     </div>
   </div>
-  <div class="partner flex flex-wrap">
+  <!--<div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
       <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
     </a>
@@ -98,8 +100,8 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
       <div>
         Depuis décembre 2018, l'<a href="https://uimm.lafabriquedelavenir.fr/">UIMM</a> du département de l'Eure nous soutient et nous aide dans l'achat de notre matériel et nos supports de communications
       </div>
-    </div>
-  </div>
+    </div> 
+  </div> -->
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
       <img src="https://s.werobot.fr/papavoine.jpg">

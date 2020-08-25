@@ -30,6 +30,10 @@ Our non-profit evolves. We have new team members to participate in contest and, 
 
 This season, we plan to participate in the [trophées de robotique](http://tropheesderobotique.fr) once again and [Astro-Pi](https://www.astro-pi.org).
 
+### 2019-2020 season
+
+Of course a very disturbed season. Our weekly robotic worshop for children in the [social center Condorcet](https://www.espacecondorcet.org/) went on until lockdown. We also manage to run two [micro-bits](https://archive.microbit.org/) workshops in the library. About the robotics contest, after being involved in the [trophées](http://tropheesderobotique.fr) then in the [coupe de France](https://www.coupederobotique.fr/) they were both cancelled/re-scheduled.
+
 ## Our team
 
 <div class="team-mosaic">
@@ -54,13 +58,13 @@ This season, we plan to participate in the [trophées de robotique](http://troph
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secretary</p>
   </div>
-  <div class="team-item">
+  <!-- <div class="team-item">
     <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Antoine</p>
     <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
-  </div>
+  </div> -->
   <div class="team-item">
     <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar">
@@ -82,13 +86,13 @@ This season, we plan to participate in the [trophées de robotique](http://troph
     <p class="team-item-title">Mohamed</p>
     <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
   </div>
-  <div class="team-item">
+  <!-- <div class="team-item">
     <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Quentin</p>
     <p class="team-item-description">Communication</p>
-  </div>
+  </div> -->
 </div>
 
 <div id="partners"></div>
@@ -104,7 +108,7 @@ This season, we plan to participate in the [trophées de robotique](http://troph
       Since October 2017, the GIGA supports us. We presented them our organization in their general assembly and have had a great financial support from them for our travels ans purchase of equipment.
     </div>
   </div>
-  <div class="partner flex flex-wrap">
+  <!-- <div class="partner flex flex-wrap">
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
@@ -113,6 +117,16 @@ This season, we plan to participate in the [trophées de robotique](http://troph
     <div class="w-full md:w-2/3">
       <div>
         Since december 2018, the <a href="https://uimm.lafabriquedelavenir.fr/">UIMM</a> of the state of the Eure help us to buy hardware and support us in our communication process
+      </div>
+    </div>
+  </div> -->
+  <div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
+      <img src="https://s.werobot.fr/papavoine.jpg">
+    </a>
+    <div class="w-full md:w-2/3">
+      <div>
+        During the 2018-2019 season , la <a href="https://www.papavoine-menuiserie.com/">Papavoine carpentry</a> helped us build most of the game elements for our table.
       </div>
     </div>
   </div>
