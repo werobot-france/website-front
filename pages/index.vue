@@ -110,12 +110,12 @@
             <img src="https://s.werobot.fr/logoGIGAreduit.png" />
           </Tooltip>
           <!-- UIMM -->
-          <Tooltip
+          <!-- <Tooltip
             to="/about#partners"
             value="Union des Industries et Métiers de la Métallurgie"
             class="partner-item link w-1/2 md:w-1/5">
             <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg" />
-          </Tooltip>
+          </Tooltip> -->
           <!-- Gaillon -->
           <Tooltip
             to="/about#partners"
