@@ -136,13 +136,24 @@ export const actions = {
     } else {
       // parse the date and replace with a formated date
       Moment.locale(params.context.app.i18n.locale || params.context.app.$i18n.locale)
+    
       data.data.post.created_at = Moment(data.data.post.created_at).format('Do MMMM YYYY')
 
       // parse markdown
-      data.data.post.content = marked(data.data.post.content);
+      data.data.post.content = marked(data.data.post.content)
 
       // image ?
       data.data.post.image = data.data.post.image.replace('50.', '75.')
+      //data.data.post.image = data.data.post.image.replace('75.', 'original.')
+
+      data.data.post.cover_position = 'background-position: center;'
+      if (data.data.post.cover_offset != null && data.data.post.cover_offset.length > 1) {
+        data.data.post.cover_position = 'background-position: ' + data.data.post.cover_offset + ';'
+      }
+
+      if (data.data.post.cover_mode === 'large') {
+        data.data.post.image = data.data.post.image.replace('75.', 'original.')
+      }
 
       // replace src="" attribute in img tags by data-src="" attributes to do lazy loading
       const regex = /<img[a-zA-Z0-9-;:"= ]+(src="(\S+)")/gm;

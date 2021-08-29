@@ -1,14 +1,28 @@
 <template>
   <div>
-    <div class="cover large-cover">
+    <div
+      :class="'cover-mode-' + $store.state.article.cover_mode"
+      class="cover large-cover"
+    >
       <div
-        :style="'background-image: url(' + $store.state.article.image + '); background-size: cover;'"
+        :style="'background-image: url(' + $store.state.article.image + '); background-size: cover; ' + $store.state.article.cover_position"
         class="cover-back"
       ></div>
       <div class="cover-container">
         <div class="container mx-auto">
           <div class="cover-title">
             <h1>{{ $store.state.article.title }}</h1>
+          </div>
+          <div
+            v-if="$store.state.article.cover_mode && false"
+            class="cover-date"
+          >
+            <div class="cover-date-icon">
+              <i class="fa fas fa-clock"></i>
+            </div>
+            <div class="cover-date-text">
+              Le {{ $store.state.article.created_at }}
+            </div>
           </div>
         </div>
       </div>
@@ -29,8 +43,12 @@
         <div v-if="!$store.state.isLoading && $store.state.article.title !== ''">
           <div class="page-details">
             <div class="page-details-item">
-              <i class="fa fas fa-clock"></i>
-              {{ $store.state.article.created_at }}
+              <div>
+                <i class="fa fas fa-clock"></i>
+              </div>
+              <div>
+                {{ $store.state.article.created_at }}
+              </div>
             </div>
           </div>
           <div
