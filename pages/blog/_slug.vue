@@ -2,7 +2,7 @@
   <div>
     <div
       :class="'cover-mode-' + $store.state.article.cover_mode"
-      class="cover large-cover"
+      class="cover"
     >
       <div
         :style="'background-image: url(' + $store.state.article.image + '); background-size: cover; ' + $store.state.article.cover_position"

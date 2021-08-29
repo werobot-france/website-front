@@ -151,6 +151,10 @@ export const actions = {
         data.data.post.cover_position = 'background-position: ' + data.data.post.cover_offset + ';'
       }
 
+      if (data.data.post.cover_mode == null || data.data.post.cover_mode.length < 1) {
+        data.data.post.cover_mode = 'small'
+      }
+
       if (data.data.post.cover_mode === 'large') {
         data.data.post.image = data.data.post.image.replace('75.', 'original.')
       }

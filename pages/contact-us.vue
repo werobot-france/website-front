@@ -12,7 +12,7 @@
     </div>
     <div class="content">
       <div class="container mx-auto">
-        <p class="mb-3">{{ $t('contact-us.body') }}</p>
+        <p class="pt-3 mb-3">{{ $t('contact-us.body') }}</p>
         <transition name="main-transition">
           <div v-if="success">
             <div

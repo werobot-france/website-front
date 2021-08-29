@@ -37,10 +37,20 @@ $cover-height: 15em;
     }
   }
 
-  &.cover-mode-large {
-    .cover-container {
-      padding: 18em 0 !important;
-    }
+  &.cover-mode-small .cover-container {
+    padding: 6em 0;
+  }
+
+  &.cover-mode-medium .cover-container {
+    height: 40vh;
+  }
+
+  &.cover-mode-large .cover-container {
+    height: 50vh;
+  }
+
+  &.cover-mode-full .cover-container {
+    height: 77vh;
   }
 
   .cover-date {
@@ -57,61 +67,49 @@ $cover-height: 15em;
 }
 
 
+@media (max-width: $responsive-small) {
+  .cover {
+    &.cover-mode-medium .cover-container {
+      height: 49vh !important;
+    }
+  }
+}
+
+@media (max-width: $responsive-interlarge) {
+  .cover {
+    &.cover-mode-large .cover-container {
+      height: 40vh !important;
+    }
+  }
+}
 
 @media (max-width: $responsive-medium) {
   .cover {
     .cover-back {
       background-position: center !important;
     }
-  }
-}
-
-
-@media (max-width: $responsive-interlarge) {
-
-  .cover {
-    &.cover-mode-large {
-      .cover-container {
-        padding: 12.5em 0 !important;
-      }
-    }
-  }
-
-}
-
-@media (max-width: $responsive-medium) {
-  
-  .cover {
     .cover-title {
       font-size: 1.3em;
     }
 
-    &.large-cover {
-      .cover-container {
-        padding: 5em 0;
-      }
+    &.cover-mode-medium .cover-container {
+      height: 45vh;
     }
+    &.large-cover .cover-container { padding: 5em 0; }
+    &.cover-mdoe-small .cover-container { padding: 5em 0; }
 
-    &.cover-mode-large {
-      .cover-container {
-        padding: 11em 0 !important;
-      }
-    }
+    //&.cover-mode-large .cover-container {
+      //padding: 11em 0 !important;
+    //}
   }
 }
 
 @media (min-width: $responsive-large) {
   .cover {
-    &.large-cover {
-      .cover-container {
-        padding: 8em 0;
-      }
-    }
+    &.large-cover .cover-container { padding: 8em 0; }
 
-    &.cover-mode-large {
-      .cover-container {
-        padding: 21em 0 !important;
-      }
-    }
+    //&.cover-mode-large .cover-container {
+      //padding: 21em 0 !important;
+    //}
   }
 }
