@@ -4,7 +4,7 @@ L'association a vu le jour en mai 2017. Son premier but était la participation 
 
 ### Première compétition
 
-Après trois mois de préparation et de communication, nous rencontrons les 156 pays participants. Le jeu des alliances et un robot pas très performant font que nous nous classons très mal. Néanmoins, la tenue régulière du blog pendant toute les phases de notre préparation nous permettent de revenir avec la médaille d'argent du prix Sofia Kovalevskaya.
+Après trois mois de préparation et de communication, nous rencontrons les 156 pays participants. Le jeu des alliances et un robot pas très performant font que nous nous classons très mal. Néanmoins, la tenue régulière du blog pendant toutes les phases de notre préparation nous permettent de revenir avec la médaille d'argent du prix Sofia Kovalevskaya.
 
 ### Saison 2017-2018
 
