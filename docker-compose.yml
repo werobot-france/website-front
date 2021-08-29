@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    build: .
+    image: 'werobot/web-dev'
+    ports:
+      - "0.0.0.0:3000:3000"
+    environment:
+      - APP_ENV_CUSTOM=test
+    volumes:
+      - ./:/app
+      - /app/node_modules/
