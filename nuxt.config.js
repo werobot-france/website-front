@@ -152,5 +152,7 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  telemetry: false
 };
