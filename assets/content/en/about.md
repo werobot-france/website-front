@@ -8,9 +8,9 @@ After three months spent building, training and communicating, we finally met th
 
 ### 2017-2018 season
 
-<center>
+<div class="d-flex justify-center">
   <img alt="Our old logo" src="https://s.werobot.fr/old_logo.png" title="Our old logo" width="100" />
-</center>
+</div>
 
 We participated in two competitions :
 - The [trophées de robotique](http://tropheesderobotique.fr)
@@ -70,21 +70,21 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
       <img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Mathis</p>
-    <p class="team-item-description">Challenges, Astro-Pi, robotic workshop</p>
+    <p class="team-item-description">Challenges, robotic workshop</p>
   </div>
   <div class="team-item">
     <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Matthieu</p>
-    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
+    <p class="team-item-description">Challenges, Communication</p>
   </div>
   <div class="team-item">
     <div class="team-item-image">
       <img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar">
     </div>
     <p class="team-item-title">Mohamed</p>
-    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
+    <p class="team-item-description">Challenges, Communication</p>
   </div>
   <!-- <div class="team-item">
     <div class="team-item-image">
