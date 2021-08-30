@@ -10,9 +10,19 @@
         </div>
       </div>
     </div>
-    <div class="content">
+    <div class="content text">
       <div class="container mx-auto">
-        <p class="pt-3 mb-3">{{ $t('contact-us.body') }}</p>
+        <h2>{{ $t('contact-us.president.title') }}</h2>
+        <div class="pt-1 d-flex justify-center">
+          <contact-card
+            :phone="['KzMzNjE2', 'NjE3OTQ1']"
+            avatarUrl="https://s.werobot.fr/profiles/franck.jpg"
+            name="Franck GITON"
+            email="werobot.fr@gmail.com"
+          />
+        </div>
+        <h2>{{ $t('contact-us.form.title') }}</h2>
+        <p class="mb-3">{{ $t('contact-us.form.description') }}</p>
         <transition name="main-transition">
           <div v-if="success">
             <div
@@ -158,7 +168,8 @@
 </template>
 
 <script>
-//import VueRecaptcha from 'vue-recaptcha';
+import ContactCard from '../components/ContactCard'
+
 export default {
   head () {
     return {
@@ -171,7 +182,9 @@ export default {
       ]
     }
   },
-  //components: { VueRecaptcha },
+  components: {
+    ContactCard
+  },
   data () {
     return {
       errors: {},
