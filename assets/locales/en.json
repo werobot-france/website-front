@@ -63,8 +63,12 @@
   "contact-us": {
     "title": "Contact us",
     "description": "There are many way to contact the We Robot team, one of which is to use the form provided on this page.",
-    "body": "If you have any questions or proposal, please contact us through the form below.",
+    "president": {
+      "title": "By contacting the president"
+    },
     "form": {
+      "title": "By using the form",
+      "description": "If you have any questions or proposal, please contact us through the form below.",
       "field_required": "This field is required",
       "recaptcha_required": "The recaptcha is required",
       "invalid_email": "This email is invalid",
