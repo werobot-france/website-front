@@ -36,7 +36,7 @@
           </div>
         </transition>
         <div class="blog-title-container py-2">
-          <h2 class="index-icon-title">
+          <h2 class="index-icon-title blog-title">
             <i class="fa fas fa-newspaper"></i>
             {{ $t('articles.all') }}
           </h2>

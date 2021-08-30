@@ -171,6 +171,17 @@
 }
 
 @media (max-width: $responsive-small) {
+  .blog-title-container {
+    padding: 0;
+    .blog-title {
+      display: none;
+    }
+    .sort {
+      margin-top: 0 !important;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
   .articles {
     align-items: center;
     flex-direction: column;
