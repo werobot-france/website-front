@@ -62,7 +62,7 @@ $logo-responsive-height: 4em;
   position: fixed;
   width: 100%;
   background-color: white;
-  z-index: 99;
+  z-index: 1500;
   transition:0.4s top cubic-bezier(.3,.73,.3,.74);
   border-bottom: 2px solid #a4b0be;
   .header-container {

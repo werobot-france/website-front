@@ -56,6 +56,9 @@
                 to="/about">{{ $t('about') }}</nuxt-link>
               <nuxt-link
                 class="link"
+                to="/about#place">{{ $t('place') }}</nuxt-link>
+              <nuxt-link
+                class="link"
                 to="/contact-us">{{ $t('contact-us.title') }}</nuxt-link>
               <nuxt-link
                 class="link"

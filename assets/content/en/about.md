@@ -34,6 +34,8 @@ This season, we plan to participate in the [trophées de robotique](http://troph
 
 Of course a very disturbed season. Our weekly robotic worshop for children in the [social center Condorcet](https://www.espacecondorcet.org/) went on until lockdown. We also manage to run two [micro-bits](https://archive.microbit.org/) workshops in the library. About the robotics contest, after being involved in the [trophées](http://tropheesderobotique.fr) then in the [coupe de France](https://www.coupederobotique.fr/) they were both cancelled/re-scheduled.
 
+<div id="members"></div>
+
 ## Our team
 
 <div class="team-mosaic">
@@ -182,5 +184,19 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
     <div class="w-full md:w-2/3">
       Helps us since april 2019. They already gave us 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
     </div>
+  </div>
+</div>
+
+<div id="place-anchor" style="position: relative; opacity: 0; top: -550px;"></div>
+<div class="pt-3"></div>
+
+## Our workshop
+
+We have premises offered by the city of Gaillon to host our activities. There are located in proximity to the "Douaires recreation center". To learn more, [read our blog article at on this topic.](/blog/our-new-facilities)
+
+<div class="about-place-container mt-5 d-flex justify-center">
+  <div
+    id="place-map"
+    class="about-place-map">
   </div>
 </div>

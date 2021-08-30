@@ -34,6 +34,8 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la robotique aux enfants du [Centre Social Condorcet](https://www.espacecondorcet.org/) a continué jusqu'au confinement. Nous avons par ailleurs pu organiser deux ateliers de découverte des [micro-bits](https://archive.microbit.org/fr/). En ce qui concerne les concours de robotique, nos deux jeunes ont bossé d'arrache-pieds mais les [trophées](http://tropheesderobotique.fr) on tout d'abord été programmés à une date impossible (trop proche du bac) nous avons réussi à négocier notre inscription à la [coupe de France](https://www.coupederobotique.fr/) mais ces événements ont finis par être annulés/reportés.
 
+<div id="members"></div>
+
 ## Nos membres
 
 <div class="team-mosaic">
@@ -166,5 +168,19 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
     <div class="w-full md:w-2/3">
       Nous soutient depuis avril 2019. Nous a déjà fourni 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
     </div>
+  </div>
+</div>
+
+<div id="place-anchor" style="position: relative; opacity: 0; top: -550px;"></div>
+<div class="pt-3"></div>
+
+## Nos locaux
+
+Nous disposons de locaux prêtés par la ville de Gaillon situés à proximité du centre de loisir des Douaires. Pour en savoir plus, [lisez notre article de blog à ce sujet.](/blog/voici-nos-nouveau-locaux)
+
+<div class="about-place-container mt-5 d-flex justify-center">
+  <div
+    id="place-map"
+    class="about-place-map">
   </div>
 </div>

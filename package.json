@@ -25,6 +25,7 @@
     "marked": "^0.5.1",
     "moment": "^2.22.2",
     "nuxt": "^2.0.0",
+    "ol": "^6.6.1",
     "vue-burger-menu": "^1.0.8",
     "vue-cookie": "^1.1.4",
     "vue-directive-tooltip": "^1.5.0",

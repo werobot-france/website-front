@@ -16,6 +16,10 @@
           v-lazy-container="{ selector: 'img' }"
           v-html="content">
         </div>
+        <no-ssr>
+          <component :is="mapComponent"></component>
+        </no-ssr>
+      </div>
     </div>
   </div>
 </template>
@@ -34,8 +38,27 @@ export default {
       ]
     }
   },
+  components: {
+    'map-dynamic': () => import('~/components/Map.vue'),
+  },
   data () {
-    return { content: '' }
+    return {
+      map: null,
+      content: '',
+      mapComponent: ''
+    }
+  },
+  mounted () {
+    if (this.$isServer) { return }
+    this.mapComponent = 'map-dynamic'
+    setTimeout(() => {
+      if (window.location.hash.indexOf('place') !== -1) {
+        document.getElementById('place-anchor').scrollIntoView()
+      }
+    }, 500)
+  },
+  methods: {
+    initializeMap () {}
   },
   async asyncData(context) {
     return {
@@ -44,3 +67,5 @@ export default {
   }
 }
 </script>
+
+<style src="~/node_modules/ol/ol.css"></style>
