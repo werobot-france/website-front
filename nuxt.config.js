@@ -5,6 +5,7 @@ module.exports = {
   mode: 'universal',
 
   env: {
+    apiEndpoint: process.env.API_ENDPOINT,
     reCaptchaKey: "6LdSznYUAAAAAHCOHlNFZCrW4puTUBeiSLcbtRbF",
     twitter: "https://twitter.com/werobot_FR",
     facebook: "https://facebook.com/WeRobot/",

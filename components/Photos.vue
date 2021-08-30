@@ -3,7 +3,8 @@
     <transition name="main-transition">
       <div
         v-if="isLoading === true"
-        class="transition-child loading-container">
+        class="transition-child loading-container"
+        style="height: 100%;">
         <div class="loading-content">
           <i class="fa fas fa-sync-alt fa-spin"></i>
           {{ $t('loading') }}
@@ -13,7 +14,8 @@
     <transition name="main-transition">
       <div
         v-if="isLoading === false && photos.length === 0"
-        class="transition-child section-error-container">
+        class="transition-child section-error-container"
+        style="height: 100%;">
         <div class="section-error-content">
           <i class="fa fas fa-times-circle"></i>
           {{ $t('photos.empty') }}
@@ -72,10 +74,12 @@ export default {
       limit = ''
     }
     this.$axios.get(`/photos${limit}`).then((res) => {
-      this.photos = res.data.data.photos;
-      this.photosSlideShow = this.photos.map((photo) => {
-        return photo.original
+      this.photos = res.data.data.photos.map((photo) => {
+        photo.original = this.$env.apiEndpoint + '/proxy-picture?url=' + btoa(photo.original)
+        photo.thumbnail = this.$env.apiEndpoint + '/proxy-picture?url=' + btoa(photo.thumbnail)
+        return photo
       });
+      this.photosSlideShow = this.photos.map((photo) => photo.original);
       this.isLoading = false;
     })
   }

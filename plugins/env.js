@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 Vue.prototype.$env = {
+  apiEndpoint: process.env.apiEndpoint,
   socials: {
     facebook: process.env.facebook,
     instagram: process.env.instagram,
