@@ -7,7 +7,9 @@ Le propriétaire et l'éditeur du site werobot.fr est l'association locale à bu
 E-Mail: [werobot.fr@gmail.com](mailto:werobot.fr@gmail.com)
 
 12 Sentier du Clos Paumel
+
 27940 GAILLON
+
 FRANCE
 
 ## Responsable publication
@@ -19,7 +21,13 @@ Le responsable de la publication du site werobot.fr est :
 
 ## Hébergeur 
 
-Werobot héberge ses services en ligne, le site web (werobot.fr) ainsi que son api interne (api.werobot.fr) sur la platforme [Scaleway](https://www.scaleway.com) géré par la société [Online.net](https://www.online.net), son adresse étant : Online SAS - BP 438 - 75366 Paris CEDEX.
+Werobot héberge ses services en ligne, le site web (werobot.fr) ainsi que son api interne (api.werobot.fr) sur la platforme [Scaleway](https://www.scaleway.com) géré par la société [Online.net](https://www.online.net), son adresse étant : 
+
+Online SAS
+
+BP 438
+
+75366 Paris CEDEX.
 
 ## Propriété intellectuelle
 
