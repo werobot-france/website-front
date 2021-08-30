@@ -33,12 +33,12 @@ export default {
     }
   },
   data () {
-    return {
-      content: ''
-    }
+    return { content: '' }
   },
-  mounted () {
-    this.content = require('../assets/content/' + this.$i18n.locale + '/about.md')
+  async asyncData(context) {
+    return {
+      content: require('../assets/content/' + context.app.i18n.locale + '/about.md')
+    }
   }
 }
 </script>
