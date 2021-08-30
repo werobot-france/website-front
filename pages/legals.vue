@@ -13,7 +13,7 @@
     <div class="container mx-auto content text">
       <div>
         <div
-          v-show="$i18n.locale === 'en'"
+          v-if="false"
           class="bg-red-lightest border-t-4 border-red rounded-b text-red-darkest px-4 py-3 shadow-md mb-5"
           role="alert"
         >
@@ -51,8 +51,11 @@ export default {
     }
   },
   data() {
+    return { content: '' }
+  },
+  async asyncData(context) {
     return {
-      content: require('../assets/content/fr/legals.md')
+      content: require('../assets/content/' + context.app.i18n.locale + '/legals.md')
     }
   }
 }
