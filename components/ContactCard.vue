@@ -57,7 +57,10 @@ export default {
             out += ' '
           }
         }
-        return '0' + out
+        if (this.$i18n.locale === 'fr') {
+          return '0' + out
+        }
+        return '+33 ' + out
       }
       return phone
     }
