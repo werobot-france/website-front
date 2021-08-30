@@ -8,8 +8,8 @@ Après trois mois de préparation et de communication, nous rencontrons les 156 
 
 ### Saison 2017-2018
 
-<div class="d-flex justify-center">
-  <img alt="Notre ancien logo" src="https://s.werobot.fr/old_logo.png" title="Notre ancien logo" width="100" />
+<div class="d-flex justify-center pb-2">
+  <img alt="Notre ancien logo" data-src="https://s.werobot.fr/old_logo.png" title="Notre ancien logo" width="100" />
 </div>
 
 Nous avons participé à deux compétitions cette année :
@@ -38,42 +38,42 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
 
 <div class="team-mosaic">
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/franck.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/franck.jpg" alt="avatar"></div>
     <p class="team-item-title">Franck</p>
     <p class="team-item-description">Président de l'association, Coach</p>
   </div>
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar"></div>
     <p class="team-item-title">François</p>
     <p class="team-item-description">Trésorier de l'association, Coach</p>
   </div>
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar"></div>
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secrétaire</p>
   </div>
   <!-- <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar"></div>
     <p class="team-item-title">Antoine</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div> -->
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
     <p class="team-item-title">Mathis</p>
     <p class="team-item-description">Trophées, Astro-Pi, atelier de robotique</p>
   </div>
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar"></div>
     <p class="team-item-title">Matthieu</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar"></div>
     <p class="team-item-title">Mohamed</p>
     <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
   </div>
   <!--<div class="team-item">
-    <div class="team-item-image"><img src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar"></div>
+    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar"></div>
     <p class="team-item-title">Quentin</p>
     <p class="team-item-description">Communication</p>
   </div>-->
@@ -86,7 +86,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
 <div class="partners">
   <div class="partner flex flex-wrap">
     <div class="w-full md:w-1/3 partner-image">
-      <img src="https://s.werobot.fr/logoGIGAreduit.png">
+      <img data-src="https://s.werobot.fr/logoGIGAreduit.png">
     </div>
     <div class="w-full md:w-2/3">
       Depuis octobre 2017 le GIGA est à nos côtés. Nous leur avons présenté l'association en assemblée générale, nous avons bénéficié d'un fort soutien financier de leur part pour nos déplacements ainsi que l'achat de matériel.
@@ -94,7 +94,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
   </div>
   <!--<div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://uimm.lafabriquedelavenir.fr/">
-      <img src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
+      <img data-src="https://s.werobot.fr/UIMMfabriqueMetiers.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -104,7 +104,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
   </div> -->
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.papavoine-menuiserie.com/">
-      <img src="https://s.werobot.fr/papavoine.jpg">
+      <img data-src="https://s.werobot.fr/papavoine.jpg">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -114,7 +114,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.girv.com/">
-      <img src="https://s.werobot.fr/girv.png">
+      <img data-src="https://s.werobot.fr/girv.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -124,7 +124,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
   </div>
   <div class="partner flex flex-wrap">
     <a class="w-full md:w-1/3 partner-image" href="https://www.ariane.group">
-      <img src="https://s.werobot.fr/arianegroup_lg.png">
+      <img data-src="https://s.werobot.fr/arianegroup_lg.png">
     </a>
     <div class="w-full md:w-2/3">
       <div>
@@ -143,26 +143,26 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
     </div>
   </div> -->
   <div class="partner flex flex-wrap">
-    <div class="w-full md:w-1/3 partner-image">
-      <img src="https://s.werobot.fr/logoVilleGaillon.jpg">
-    </div>
+    <a class="w-full md:w-1/3 partner-image" href="http://www.ville-gaillon.fr/">
+      <img data-src="https://s.werobot.fr/logoVilleGaillon.jpg">
+    </a>
     <div class="w-full md:w-2/3">
       En début de saison 2017-2018, la mairie de Gaillon nous a accordé une petite subvention.
       Depuis avril 2019, elle nous prête de grands locaux pour toutes nos activités et se montre très à l'écoute de nos besoins.
     </div>
   </div>
   <div class="partner flex flex-wrap">
-    <div class="w-full md:w-1/3 partner-image">
-      <img src="https://s.werobot.fr/skf.png">
-    </div>
+    <a class="w-full md:w-1/3 partner-image" href="https://www.skf.com/fr">
+      <img data-src="https://s.werobot.fr/skf.png">
+    </a>
     <div class="w-full md:w-2/3">
       SKF Vernon a participé à l'achat de l'imprimante 3D de notre association en février 2019.
     </div>
   </div>
   <div class="partner flex flex-wrap">
-    <div class="w-full md:w-1/3 partner-image">
-      <img src="https://s.werobot.fr/atisComputer.jpg">
-    </div>
+    <a class="w-full md:w-1/3 partner-image" href="https://www.atiscomputer.com">
+      <img data-src="https://s.werobot.fr/atisComputer.jpg">
+    </a>
     <div class="w-full md:w-2/3">
       Nous soutient depuis avril 2019. Nous a déjà fourni 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
     </div>

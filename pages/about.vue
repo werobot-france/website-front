@@ -12,8 +12,10 @@
     </div>
     <div class="container mx-auto content text">
       <div>
-        <div v-html="content"></div>
-      </div>
+        <div
+          v-lazy-container="{ selector: 'img' }"
+          v-html="content">
+        </div>
     </div>
   </div>
 </template>
