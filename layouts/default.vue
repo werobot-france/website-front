@@ -11,11 +11,11 @@
           id="main-page-wrap"
           :class="{'disabled': $store.state.drawerEnabled}"
           class="main-page-wrap">
-          <header-container />
+          <header-container :onSwapLocale="swapLocale" />
           <nuxt
             :class="{'not-complete' : $store.state.headerComplete === false}"
             class="content-container" />
-          <footer-container />
+          <footer-container :onSwapLocale="swapLocale" />
         </main>
       </div>
     </transition>
@@ -45,9 +45,6 @@ export default {
         lang: this.$i18n.locale
       }
     }
-  },
-  created () {
-    this.$store.commit('SET_SWAP_LOCALE', this.swapLocale)
   },
   mounted () {
     let locale = navigator.language.substring(0, 2);

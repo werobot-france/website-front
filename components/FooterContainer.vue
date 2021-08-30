@@ -98,7 +98,7 @@
             class="footer-locale">
             <a
               class="button button-primary"
-              @click="$store.state.swapLocale()">
+              @click="onSwapLocale">
               <div class="button-icon">
                 <i class="fa fas fa-flag"></i>
               </div>
@@ -121,6 +121,12 @@
 
 <script>
 export default {
-  name: 'FooterContainer'
+  name: 'FooterContainer',
+  props: {
+    onSwapLocale: {
+      type: Function,
+      required: true
+    }
+  }
 }
 </script>

@@ -15,8 +15,7 @@ export const state = () => ({
   },
   locale: 'fr',
   headerComplete: true,
-  onSwappedLocale: null,
-  swapLocale: null
+  onSwappedLocale: null
 });
 
 export const mutations = {
@@ -50,9 +49,6 @@ export const mutations = {
   },
   SET_ON_SWAPPED_LOCALE: function (state, payload) {
     state.onSwappedLocale = payload
-  },
-  SET_SWAP_LOCALE: function (state, payload) {
-    state.swapLocale = payload
   }
 };
 

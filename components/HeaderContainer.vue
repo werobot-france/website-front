@@ -67,7 +67,7 @@
             class="footer-locale ">
             <a
               class="button button-primary"
-              @click="$store.state.swapLocale()">
+              @click="onSwapLocale()">
               <div class="button-icon">
                 <i class="fa fas fa-flag"></i>
               </div>
@@ -90,6 +90,12 @@
 <script>
 export default {
   name: 'HeaderContainer',
+  props: {
+    onSwapLocale: {
+      type: Function,
+      required: true
+    }
+  },
   mounted () {
     if (!process.server) {
       window.addEventListener('scroll', (scrollObject) => {
