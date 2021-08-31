@@ -85,7 +85,11 @@ export default {
     this.$store.commit('SET_ON_SWAPPED_LOCALE', locale => {
       return new Promise((resolve) => {
         this.$axios.get('/post?identifier=' + this.$store.state.article.identifier + '&locale=' + locale).then(response => {
-          resolve(window.location.toString().replace(this.$store.state.article.slug, response.data.data.posts[0].slug))
+          if (response.data.data.posts.length === 0) {
+            resolve(null)
+          } else {
+            resolve(window.location.toString().replace(this.$store.state.article.slug, response.data.data.posts[0].slug))
+          }
         })
       })
     })
