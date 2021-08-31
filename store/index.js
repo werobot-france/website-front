@@ -151,7 +151,7 @@ export const actions = {
         data.data.post.cover_mode = 'small'
       }
 
-      if (data.data.post.cover_mode === 'large') {
+      if (data.data.post.cover_mode === 'large' || data.data.post.cover_mode === 'full') {
         data.data.post.image = data.data.post.image.replace('75.', 'original.')
       }
 
