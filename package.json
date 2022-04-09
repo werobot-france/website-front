@@ -23,7 +23,7 @@
     "express": "^4.16.3",
     "http-proxy-middleware": "^0.19.0",
     "marked": "^0.5.1",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "nuxt": "^2.0.0",
     "ol": "^6.6.1",
     "vue-burger-menu": "^1.0.8",
