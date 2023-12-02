@@ -123,6 +123,18 @@
       margin-bottom: 0.5em;
     }
   }
+
+  figure {
+    img {
+      margin-bottom: 0;
+      padding-bottom: 0.5rem !important;
+    }
+    figcaption {
+      text-align: center;
+      font-size: 0.9em;
+    }
+    margin-bottom: 2rem;
+  }
 }
 
 .index-icon-title {
