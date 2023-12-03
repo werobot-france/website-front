@@ -20,7 +20,7 @@ export default {
   mounted () {
     if (this.$isServer) { return }
     const zoomLevel = 15
-    const location = [1.303757429122925, 49.15029606636458]
+    const location = [1.3305366, 49.1586146]
     setTimeout(() => {
       let map = new Map({
         target: 'place-map',

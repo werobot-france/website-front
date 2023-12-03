@@ -176,7 +176,7 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
 
 ## Nos locaux
 
-Nous disposons de locaux prêtés par la ville de Gaillon situés à proximité du centre de loisir des Douaires. Pour en savoir plus, [lisez notre article de blog à ce sujet.](/blog/voici-nos-nouveau-locaux)
+Nous disposons de locaux prêtés par la ville de Gaillon situés à proximité du centre ville de Gaillon dans la résidence autonomie Flamants-Cygnes, situé rue du Printemps de Prague. Pour en savoir plus, [lisez notre article de blog à ce sujet.](/blog/we-robot-demenage)
 
 <div class="about-place-container mt-5 d-flex justify-center">
   <div

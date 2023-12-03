@@ -192,7 +192,7 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
 
 ## Our workshop
 
-We have premises offered by the city of Gaillon to host our activities. There are located in proximity to the "Douaires recreation center". To learn more, [read our blog article at on this topic.](/blog/our-new-facilities)
+We have premises offered by the city of Gaillon to host our activities. There are located near the street "Rue de Printemps de Prague".
 
 <div class="about-place-container mt-5 d-flex justify-center">
   <div
