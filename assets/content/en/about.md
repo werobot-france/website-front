@@ -34,6 +34,16 @@ This season, we plan to participate in the [trophées de robotique](http://troph
 
 Of course a very disturbed season. Our weekly robotic worshop for children in the [social center Condorcet](https://www.espacecondorcet.org/) went on until lockdown. We also manage to run two [micro-bits](https://archive.microbit.org/) workshops in the library. About the robotics contest, after being involved in the [trophées](http://tropheesderobotique.fr) then in the [coupe de France](https://www.coupederobotique.fr/) they were both cancelled/re-scheduled.
 
+### Season 2020-2021
+
+Just before the second lockdown, we were able to participate for the first time in the [French Robotics Cup](https://www.coupederobotique.fr/). The experience alongside Matthieu and Mohamed was extremely interesting. Otherwise, the season unfolded with mixed results: another year without a physical competition, but we participated in an online competition organized by [Student Robotics](https://studentrobotics.org/) during which we won the "Rookie Award" (award for the best beginner team). The Saturday workshop was maintained remotely. The youngsters connected to a [jitsi](https://jitsi.org/) chat room, and we managed to conduct some programming activities.
+
+### Season 2021-2022
+The workshops at the community center and in our Douaires premises were very dynamic, but we were unable to participate in competitions due to a lack of participants!
+
+### Season 2022-2023
+This year, the workshop at the community center only occurred sporadically as it was regularly closed due to a lack of supervising staff. Our participation in the Robotics Trophies (now called the Junior French Robotics Cup) was canceled by the Normandy organization at the last minute. The digital workshop, however, remained as active as usual.
+
 <div id="members"></div>
 
 ## Our team
@@ -46,6 +56,7 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
     <p class="team-item-title">Franck</p>
     <p class="team-item-description">President, Coach</p>
   </div>
+
   <div class="team-item">
     <div class="team-item-image">
       <img data-src="https://static.werobot.fr/profiles/francois.jpg" alt="avatar">
@@ -53,6 +64,7 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
     <p class="team-item-title">François</p>
     <p class="team-item-description">Treasurer, Coach</p>
   </div>
+
   <div class="team-item">
     <div class="team-item-image">
       <img data-src="https://static.werobot.fr/profiles/katia.jpg" alt="avatar">
@@ -60,42 +72,23 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secretary</p>
   </div>
-  <!-- <div class="team-item">
-    <div class="team-item-image">
-      <img data-src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Antoine</p>
-    <p class="team-item-description">Challenges, Astro-Pi, Communication</p>
-  </div> -->
-  <div class="team-item">
-    <div class="team-item-image">
-      <img data-src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Mathis</p>
-    <p class="team-item-description">Challenges, robotic workshop</p>
-  </div>
-  <div class="team-item">
-    <div class="team-item-image">
-      <img data-src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Matthieu</p>
-    <p class="team-item-description">Challenges, Communication</p>
-  </div>
-  <div class="team-item">
-    <div class="team-item-image">
-      <img data-src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Mohamed</p>
-    <p class="team-item-description">Challenges, Communication</p>
-  </div>
-  <!-- <div class="team-item">
-    <div class="team-item-image">
-      <img data-src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar">
-    </div>
-    <p class="team-item-title">Quentin</p>
-    <p class="team-item-description">Communication</p>
-  </div> -->
+  
+<div class="team-item">
+<div class="team-item-image">
+  <img data-src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar">
 </div>
+<p class="team-item-title">Matthieu</p>
+<p class="team-item-description">Alumni, Coach</p>
+</div>
+
+<div class="team-item">
+  <div class="team-item-image">
+    <img data-src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar">
+  </div>
+  <p class="team-item-title">Mohamed</p>
+  <p class="team-item-description">Alumni, Coach</p>
+</div>
+
 
 <div id="partners"></div>
 
@@ -182,7 +175,7 @@ Of course a very disturbed season. Our weekly robotic worshop for children in th
       <img data-src="https://s.werobot.fr/atisComputer.jpg">
     </a>
     <div class="w-full md:w-2/3">
-      Helps us since april 2019. They already gave us 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
+      Helps us since april 2019. They already gave us 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ and some computers.
     </div>
   </div>
 </div>

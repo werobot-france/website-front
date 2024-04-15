@@ -34,6 +34,22 @@ Les concours actuellement prévus cette année sont une nouvelle fois les [troph
 
 Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la robotique aux enfants du [Centre Social Condorcet](https://www.espacecondorcet.org/) a continué jusqu'au confinement. Nous avons par ailleurs pu organiser deux ateliers de découverte des [micro-bits](https://archive.microbit.org/fr/). En ce qui concerne les concours de robotique, nos deux jeunes ont bossé d'arrache-pieds mais les [trophées](http://tropheesderobotique.fr) on tout d'abord été programmés à une date impossible (trop proche du bac) nous avons réussi à négocier notre inscription à la [coupe de France](https://www.coupederobotique.fr/) mais ces événements ont finis par être annulés/reportés.
 
+### Saison 2020-2021
+
+Juste avant le deuxième confinement nous avons pu participer pour la première fois à la [coupe de France](https://www.coupederobotique.fr/).
+L'expérience aux côtés de Matthieu et Mohamed a été super intéressante. 
+Sinon la saison s'est déroulée en demie-teinte : encore une année sans compétition physique mais nous avons participé à une compétition en ligne organisée par [Student Robotics](https://studentrobotics.org/) durant laquelle nous avons remporté le "Rookie Award" (prix de la meilleure équipe débutante).
+L'atelier du samedi a été maintenu à distance. Les jeunes se connectaient sur un salon [jitsi](https://jitsi.org/) et nous avons pu faire quelques activités de programmation.
+
+### Saison 2021-2022
+Les ateliers à la maison de quartier et dans nos locaux des Douaires ont été très dynamiques mais nous n'avons pas pu participer à des compétitions faute de participants !
+
+### Saison 2022-2023
+Cette année l'atelier de la maison de quartier n'a eu lieu qu'épisodiquement car celle-ci a régulièrement été fermée du fait d'un manque de personnel encadrant.
+Notre participation aux Trophées de robotique (désormais appelés Coupe de France Junior de Robotique) a été annulée par l'organisation Normande à la dernière minutes.
+L'atelier numérique, lui, est resté très actif comme d'habitude.
+
+
 <div id="members"></div>
 
 ## Nos membres
@@ -54,31 +70,17 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
     <p class="team-item-title">Katia</p>
     <p class="team-item-description">Secrétaire</p>
   </div>
-  <!-- <div class="team-item">
-    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/antoine.jpg" alt="avatar"></div>
-    <p class="team-item-title">Antoine</p>
-    <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
-  </div> -->
-  <div class="team-item">
-    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/mathis.jpg" alt="avatar"></div>
-    <p class="team-item-title">Mathis</p>
-    <p class="team-item-description">Trophées, Astro-Pi, atelier de robotique</p>
-  </div>
   <div class="team-item">
     <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/matthieu.jpg" alt="avatar"></div>
     <p class="team-item-title">Matthieu</p>
-    <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
+    <p class="team-item-description">Ex-participant, coach</p>
   </div>
   <div class="team-item">
     <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/mohamed.jpg" alt="avatar"></div>
     <p class="team-item-title">Mohamed</p>
-    <p class="team-item-description">Trophées, Astro-Pi, Communication</p>
+    <p class="team-item-description">Ex-participant, coach</p>
   </div>
-  <!--<div class="team-item">
-    <div class="team-item-image"><img data-src="https://static.werobot.fr/profiles/quentin.jpg" alt="avatar"></div>
-    <p class="team-item-title">Quentin</p>
-    <p class="team-item-description">Communication</p>
-  </div>-->
+  
 </div>
 
 <div id="partners"></div>
@@ -166,7 +168,16 @@ Saison très mouvementée évidemment. L'atelier hebdomadaire d'initiation à la
       <img data-src="https://s.werobot.fr/atisComputer.jpg">
     </a>
     <div class="w-full md:w-2/3">
-      Nous soutient depuis avril 2019. Nous a déjà fourni 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ 
+      Nous soutient depuis avril 2019. Nous a déjà fourni 2 <a href="https://www.raspberrypi.org/">Raspberry Pi</a> 3B+ et des ordinateurs reconditionnés.
+    </div>
+  </div>
+</div>
+<div class="partner flex flex-wrap">
+    <a class="w-full md:w-1/3 partner-image" href="https://www.agglo-seine-eure.fr/">
+      <img data-src="https://www.agglo-seine-eure.fr/wp-content/themes/agglo/images/logos/logo.png">
+    </a>
+    <div class="w-full md:w-2/3">
+      En octobre 2023, l'agglomération Seine-Eure nous a accordé une subvention de 2500€ pour notre participation au FGC 2023.
     </div>
   </div>
 </div>
